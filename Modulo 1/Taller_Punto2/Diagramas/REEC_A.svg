@@ -1,0 +1,1353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg baseProfile='full' height='100.000000%' version='1.1' viewBox='0.000000 0.000000 3507.000000 2480.000000' width='100.000000%' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+
+  <defs>
+    <clipPath id='clipPath-01'>
+      <polygon points='0.000000 2480.314961, 0.000000 0.000000, 3507.874016 0.000000, 3507.874016 2480.314961' />
+    </clipPath>
+  </defs>
+
+  <g clip-path='url(#clipPath-01)'>
+    <g id='Page Layer'>
+      <polygon fill='#ffffff' points='0.500000 0.500000, 0.500000 2479.500000, 3506.500000 2479.500000, 3506.500000 0.500000' stroke='#808080' stroke-width='1.000000' />
+    </g>
+    <g id='Block definition'>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A.BlkDef'>
+        <polyline fill='none' points='88.582677 2391.732283, 3425.196850 2391.732283, 3425.196850 88.582677, 88.582677 88.582677, 88.582677 2391.732283' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='88.582677' cy='915.390354' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='921.295866'>2</text>
+        <ellipse cx='88.582677' cy='1092.548622' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='1098.454134'>3</text>
+        <ellipse cx='88.582677' cy='1210.654134' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='68.818898' y='1216.559646'>4</text>
+        <ellipse cx='88.582677' cy='1299.233268' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='1305.138780'>5</text>
+        <ellipse cx='88.582677' cy='383.904035' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='389.809547'>0</text>
+        <ellipse cx='88.582677' cy='620.115059' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='70.818898' y='626.020571'>1</text>
+        <ellipse cx='88.582677' cy='2155.544291' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='2161.449803'>8</text>
+        <ellipse cx='88.582677' cy='1978.374508' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='1984.280020'>7</text>
+        <ellipse cx='3425.196850' cy='2185.013091' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3435.460630' y='2190.918602'>2</text>
+        <ellipse cx='3425.196850' cy='1092.491043' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3436.960630' y='1098.396555'>1</text>
+        <ellipse cx='3425.196850' cy='2332.656496' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3435.460630' y='2338.562008'>3</text>
+        <ellipse cx='3425.196850' cy='826.753642' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3435.460630' y='832.659154'>0</text>
+        <ellipse cx='88.582677' cy='1771.655315' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='69.318898' y='1777.560827'>6</text>
+      </g>
+    </g>
+    <g id='Net elements'>
+      <g id='AnnotationElem 0'>
+        <polygon fill='none' points='118.110236 1624.015748, 118.110236 1860.236220, 472.440945 1860.236220, 472.440945 1624.015748' stroke='#00bf00' stroke-dasharray='5.000000 3.333333' stroke-width='1.000000' />
+      </g>
+      <g id='AnnotationElem 1'>
+        <text fill='#00bf00' font-family='Arial' font-size='9.448819' text-anchor='start' x='242.214275' y='1656.898592'>only needed for clean initialization</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\VDL.BlkRef'>
+        <polygon fill='none' points='2480.314961 1860.236245, 2480.314961 1801.181078, 2627.952756 1801.181078, 2627.952756 1860.236245' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='2480.314961' cy='1830.708661' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='2627.952756' cy='1830.708661' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\VDL.BlkRef'>
+        <polygon fill='none' points='2480.314961 1742.126009, 2480.314961 1683.070842, 2627.952756 1683.070842, 2627.952756 1742.126009' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='2480.314961' cy='1712.598425' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='2627.952756' cy='1712.598425' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Current Limit Logic.BlkRef'>
+        <polygon fill='none' points='3100.393743 1978.346513, 3100.393743 1564.960574, 3307.086572 1564.960574, 3307.086572 1978.346513' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='3100.393743' cy='1594.496999' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3110.657523' y='1600.402511'>0</text>
+        <ellipse cx='3100.393743' cy='1712.601362' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3112.157523' y='1718.506874'>1</text>
+        <ellipse cx='3100.393743' cy='1830.705725' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3110.657523' y='1836.611237'>2</text>
+        <ellipse cx='3307.086572' cy='1712.601362' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3287.822792' y='1718.506874'>0</text>
+        <ellipse cx='3307.086572' cy='1801.189969' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3289.322792' y='1807.095480'>1</text>
+        <ellipse cx='3100.393743' cy='1889.757906' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3110.657523' y='1895.663418'>3</text>
+        <ellipse cx='3100.393743' cy='1948.810088' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='3110.157523' y='1954.715599'>4</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze_Voltage_Dip.BlkGoto'>
+        <polyline fill='none' points='1062.992126 797.244094, 1085.137795 826.771654, 1122.047244 826.771654, 1122.047244 767.716535, 1085.137795 767.716535, 1062.992126 797.244094' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1062.992126' cy='797.244094' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Divisor(1).BlkDiv'>
+        <polyline fill='none' points='2096.456693 2214.566929, 2155.511811 2214.566929, 2155.511811 2155.511811, 2096.456693 2155.511811, 2096.456693 2214.566929' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2102.362205 2208.661417, 2149.606299 2208.661417, 2149.606299 2161.417323, 2102.362205 2161.417323, 2102.362205 2208.661417' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2102.362205 2208.661417, 2149.606299 2161.417323' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2117.125984' cy='2176.181102' fill='#000000' rx='2.952756' ry='2.952756' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2134.842520' cy='2193.897638' fill='#000000' rx='2.952756' ry='2.952756' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2096.456693' cy='2185.039370' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2125.984252' cy='2155.511811' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2155.511811' cy='2185.039370' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2125.984252' cy='2214.566929' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Multiplier(1).BlkMul'>
+        <polyline fill='none' points='826.771654 2125.984252, 885.826772 2125.984252, 885.826772 2066.929134, 826.771654 2066.929134, 826.771654 2125.984252' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='832.677165 2120.078740, 879.921260 2120.078740, 879.921260 2072.834646, 832.677165 2072.834646, 832.677165 2120.078740' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='832.677165 2120.078740, 879.921260 2072.834646' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='832.677165 2072.834646, 879.921260 2120.078740' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='826.771654' cy='2096.456693' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='856.299213' cy='2066.929134' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='885.826772' cy='2096.456693' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='856.299213' cy='2125.984252' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Rate Limiter.BlkRef'>
+        <polygon fill='none' points='324.803150 2214.566929, 324.803150 2096.456693, 442.913386 2096.456693, 442.913386 2214.566929' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='312.992126 2229.330709, 342.519685 2229.330709, 354.330709 2214.566929' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='454.724409 2081.692913, 425.196850 2081.692913, 413.385827 2096.456693' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='324.803150' cy='2155.511811' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='442.913386' cy='2155.511811' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Divisor.BlkDiv'>
+        <polyline fill='none' points='1387.795276 1594.488189, 1446.850394 1594.488189, 1446.850394 1535.433071, 1387.795276 1535.433071, 1387.795276 1594.488189' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1393.700787 1588.582677, 1440.944882 1588.582677, 1440.944882 1541.338583, 1393.700787 1541.338583, 1393.700787 1588.582677' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1393.700787 1588.582677, 1440.944882 1541.338583' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1408.464567' cy='1556.102362' fill='#000000' rx='2.952756' ry='2.952756' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1426.181102' cy='1573.818898' fill='#000000' rx='2.952756' ry='2.952756' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1387.795276' cy='1564.960630' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1417.322835' cy='1535.433071' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1446.850394' cy='1564.960630' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1417.322835' cy='1594.488189' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(4).BlkSum'>
+        <ellipse cx='1240.157480' cy='1387.795276' fill='none' rx='14.763780' ry='14.763780' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1225.393701' cy='1387.795276' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1240.157480' cy='1402.559055' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1254.921260' cy='1387.795276' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1240.157480' cy='1373.031496' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Fault Detection.BlkRef'>
+        <polygon fill='none' points='738.189033 767.716564, 738.189033 649.606271, 915.354274 649.606271, 915.354274 767.716564' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='738.189033' cy='708.661417' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='915.354274' cy='708.661417' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Multiplier.BlkMul'>
+        <polyline fill='none' points='442.913386 1033.464567, 501.968504 1033.464567, 501.968504 974.409449, 442.913386 974.409449, 442.913386 1033.464567' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='448.818898 1027.559055, 496.062992 1027.559055, 496.062992 980.314961, 448.818898 980.314961, 448.818898 1027.559055' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='448.818898 1027.559055, 496.062992 980.314961' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='448.818898 980.314961, 496.062992 1027.559055' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='442.913386' cy='1003.937008' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='472.440945' cy='974.409449' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='501.968504' cy='1003.937008' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='472.440945' cy='1033.464567' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum'>
+        <ellipse cx='1092.519685' cy='383.858268' fill='none' rx='14.763780' ry='14.763780' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1077.755906' cy='383.858268' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1092.519685' cy='398.622047' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1107.283465' cy='383.858268' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1092.519685' cy='369.094488' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(2).BlkSum'>
+        <ellipse cx='2775.590551' cy='1092.519685' fill='none' rx='14.763780' ry='14.763780' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2760.826772' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2775.590551' cy='1107.283465' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2790.354331' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2775.590551' cy='1077.755906' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum'>
+        <ellipse cx='2125.984252' cy='1092.519685' fill='none' rx='14.763780' ry='14.763780' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2111.220472' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2125.984252' cy='1107.283465' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2140.748031' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='2125.984252' cy='1077.755906' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\check_PFlag.BlkRef'>
+        <polygon fill='none' points='206.692913 1830.708661, 206.692913 1712.598425, 354.330709 1712.598425, 354.330709 1830.708661' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='206.692913' cy='1771.653543' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(7).BlkFrom'>
+        <polyline fill='none' points='1269.685039 1269.685039, 1247.539370 1240.157480, 1210.629921 1240.157480, 1210.629921 1299.212598, 1247.539370 1299.212598, 1269.685039 1269.685039' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1269.685039' cy='1269.685039' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(6).BlkFrom'>
+        <polyline fill='none' points='1269.685039 885.826772, 1247.539370 856.299213, 1210.629921 856.299213, 1210.629921 915.354331, 1247.539370 915.354331, 1269.685039 885.826772' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1269.685039' cy='885.826772' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Goto(2).BlkGoto'>
+        <polyline fill='none' points='2509.842520 1181.102362, 2531.988189 1210.629921, 2568.897638 1210.629921, 2568.897638 1151.574803, 2531.988189 1151.574803, 2509.842520 1181.102362' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2509.842520' cy='1181.102362' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum'>
+        <ellipse cx='1151.574803' cy='1092.519685' fill='none' rx='14.763780' ry='14.763780' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1136.811024' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1151.574803' cy='1107.283465' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1166.338583' cy='1092.519685' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+        <ellipse cx='1151.574803' cy='1077.755906' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Goto(1).BlkGoto'>
+        <polyline fill='none' points='2509.842520 1003.937008, 2531.988189 1033.464567, 2568.897638 1033.464567, 2568.897638 974.409449, 2531.988189 974.409449, 2509.842520 1003.937008' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2509.842520' cy='1003.937008' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Const.BlkRef'>
+        <polygon fill='none' points='915.354331 1417.322835, 915.354331 1358.267717, 1033.464567 1358.267717, 1033.464567 1417.322835' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='1033.464567' cy='1387.795276' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Goto.BlkGoto'>
+        <polyline fill='none' points='915.354331 265.748031, 937.500000 295.275591, 974.409449 295.275591, 974.409449 236.220472, 937.500000 236.220472, 915.354331 265.748031' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='915.354331' cy='265.748031' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref0_select.BlkRef'>
+        <polygon fill='none' points='679.133858 561.023622, 679.133858 442.913386, 856.299213 442.913386, 856.299213 561.023622' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='856.299213' cy='501.968504' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(5).BlkFrom'>
+        <polyline fill='none' points='1210.629921 1860.236220, 1188.484252 1830.708661, 1151.574803 1830.708661, 1151.574803 1889.763780, 1188.484252 1889.763780, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1210.629921' cy='1860.236220' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(4).BlkFrom'>
+        <polyline fill='none' points='2923.228346 1889.763780, 2901.082677 1860.236220, 2864.173228 1860.236220, 2864.173228 1919.291339, 2901.082677 1919.291339, 2923.228346 1889.763780' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2923.228346' cy='1889.763780' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(3).BlkFrom'>
+        <polyline fill='none' points='1564.960630 2037.401575, 1542.814961 2007.874016, 1505.905512 2007.874016, 1505.905512 2066.929134, 1542.814961 2066.929134, 1564.960630 2037.401575' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1564.960630' cy='2037.401575' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(2).BlkFrom'>
+        <polyline fill='none' points='1771.653543 1446.850394, 1749.507874 1417.322835, 1712.598425 1417.322835, 1712.598425 1476.377953, 1749.507874 1476.377953, 1771.653543 1446.850394' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1771.653543' cy='1446.850394' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(1).BlkFrom'>
+        <polyline fill='none' points='2096.456693 915.354331, 2074.311024 885.826772, 2037.401575 885.826772, 2037.401575 944.881890, 2074.311024 944.881890, 2096.456693 915.354331' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='2096.456693' cy='915.354331' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From.BlkFrom'>
+        <polyline fill='none' points='1092.519685 885.826772, 1070.374016 856.299213, 1033.464567 856.299213, 1033.464567 915.354331, 1070.374016 915.354331, 1092.519685 885.826772' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='1092.519685' cy='885.826772' fill='#c0c0c0' rx='5.314961' ry='5.314961' stroke='#c0c0c0' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef'>
+        <polygon fill='none' points='2598.425260 1564.960799, 2598.425260 974.409280, 2687.007811 974.409280, 2687.007811 1564.960799' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='2598.425260' cy='1092.490056' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2608.689040' y='1098.395568'>0</text>
+        <ellipse cx='2598.425260' cy='1505.905647' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2610.189040' y='1511.811159'>1</text>
+        <ellipse cx='2687.007811' cy='1092.490056' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze_signals.BlkRef'>
+        <polygon fill='none' points='2244.094488 1210.629921, 2244.094488 974.409449, 2421.259843 974.409449, 2421.259843 1210.629921' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='2438.976378 944.881890, 2394.685039 944.881890, 2376.968504 974.409449' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2244.094488' cy='1033.464567' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2254.358268' y='1039.370079'>0</text>
+        <ellipse cx='2244.094488' cy='1092.519685' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2255.858268' y='1098.425197'>1</text>
+        <ellipse cx='2303.152559' cy='974.409449' fill='#ff00ff' rx='5.314961' ry='5.314961' stroke='#ff00ff' stroke-width='1.000000' />
+        <ellipse cx='2421.259843' cy='1003.937008' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2401.996063' y='1009.842520'>0</text>
+        <ellipse cx='2421.259843' cy='1092.519685' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2403.496063' y='1098.425197'>1</text>
+        <ellipse cx='2421.259843' cy='1181.102362' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2401.996063' y='1187.007874'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef'>
+        <polygon fill='none' points='1830.708661 1151.574803, 1830.708661 1033.464567, 1948.818898 1033.464567, 1948.818898 1151.574803' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='1836.614173 1145.669291, 1942.913386 1145.669291, 1942.913386 1039.370079, 1836.614173 1039.370079, 1836.614173 1145.669291' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='1818.897638 1166.338583, 1848.425197 1166.338583, 1860.236220 1151.574803' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='1960.629921 1018.700787, 1931.102362 1018.700787, 1919.291339 1033.464567' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1830.708661' cy='1092.519685' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='1948.818898' cy='1092.519685' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef'>
+        <polygon fill='none' points='1594.488252 1446.850506, 1594.488252 1033.464454, 1683.070803 1033.464454, 1683.070803 1446.850506' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='1594.488252' cy='1092.537321' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1604.752032' y='1098.442833'>0</text>
+        <ellipse cx='1594.488252' cy='1387.798309' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1606.252032' y='1393.703821'>1</text>
+        <ellipse cx='1683.070803' cy='1092.537321' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze.BlkRef'>
+        <polygon fill='none' points='1269.685039 1181.102362, 1269.685039 974.409449, 1505.905512 974.409449, 1505.905512 1181.102362' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='1246.062992 1206.938976, 1305.118110 1206.938976, 1328.740157 1181.102362' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='1529.527559 948.572835, 1470.472441 948.572835, 1446.850394 974.409449' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1269.685039' cy='1033.461614' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1279.948819' y='1039.367126'>0</text>
+        <ellipse cx='1505.905512' cy='1092.524114' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='1269.685039' cy='1092.524114' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1281.448819' y='1098.429626'>1</text>
+        <ellipse cx='1387.795276' cy='974.409449' fill='#ff00ff' rx='5.314961' ry='5.314961' stroke='#ff00ff' stroke-width='1.000000' />
+        <ellipse cx='1387.795276' cy='1181.102362' fill='#0000ff' rx='5.314961' ry='5.314961' stroke='#0000ff' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef'>
+        <polygon fill='none' points='856.299213 1151.574803, 856.299213 1033.464567, 974.409449 1033.464567, 974.409449 1151.574803' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='862.204724 1145.669291, 968.503937 1145.669291, 968.503937 1039.370079, 862.204724 1039.370079, 862.204724 1145.669291' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='844.488189 1166.338583, 874.015748 1166.338583, 885.826772 1151.574803' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='986.220472 1018.700787, 956.692913 1018.700787, 944.881890 1033.464567' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='856.299213' cy='1092.519685' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='974.409449' cy='1092.519685' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\tan().BlkRef'>
+        <polygon fill='none' points='236.220483 944.881907, 236.220483 885.826754, 354.330698 885.826754, 354.330698 944.881907' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='242.125994 941.929150, 348.425187 941.929150, 348.425187 888.779512, 242.125994 888.779512, 242.125994 941.929150' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='236.220483' cy='915.354331' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='354.330698' cy='915.354331' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip Limits.BlkRef'>
+        <polygon fill='none' points='2893.700787 2244.094488, 2893.700787 2125.984252, 3011.811024 2125.984252, 3011.811024 2244.094488' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='2899.606299 2238.188976, 3005.905512 2238.188976, 3005.905512 2131.889764, 2899.606299 2131.889764, 2899.606299 2238.188976' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='3023.622047 2111.220472, 2994.094488 2111.220472, 2982.283465 2125.984252' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2893.700787' cy='2185.039370' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='3011.811024' cy='2185.039370' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='2923.228346' cy='2125.984252' fill='#ff00ff' rx='5.314961' ry='5.314961' stroke='#ff00ff' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[1/(1+sT)]_freeze.BlkRef'>
+        <polygon fill='none' points='1653.543307 2273.622047, 1653.543307 2125.984252, 1771.653543 2125.984252, 1771.653543 2273.622047' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='1641.732283 2292.076772, 1671.259843 2292.076772, 1683.070866 2273.622047' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='1783.464567 2107.529528, 1753.937008 2107.529528, 1742.125984 2125.984252' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1653.543307' cy='2155.511811' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1663.807087' y='2161.417323'>0</text>
+        <ellipse cx='1771.653543' cy='2185.039370' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='1653.543307' cy='2214.566929' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1665.307087' y='2220.472441'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef'>
+        <polygon fill='none' points='1240.157508 2244.094488, 1240.157508 2066.929134, 1358.267688 2066.929134, 1358.267688 2244.094488' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='1240.157508' cy='2096.453740' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1250.421288' y='2102.359252'>0</text>
+        <ellipse cx='1240.157508' cy='2214.569882' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1251.921288' y='2220.475394'>1</text>
+        <ellipse cx='1358.267688' cy='2214.561024' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef'>
+        <polygon fill='none' points='2155.511811 2066.929134, 2096.456693 2066.929134, 2096.456693 2007.874016, 2155.511811 2007.874016' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='2152.559055 2063.976378, 2152.559055 2010.826772, 2099.409449 2010.826772, 2099.409449 2063.976378, 2152.559055 2063.976378' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='2162.893701 2072.834646, 2162.893701 2058.070866, 2155.511811 2052.165354' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2125.984252' cy='2007.874016' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='2125.984252' cy='2066.929134' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT)_freeze.BlkRef'>
+        <polygon fill='none' points='1860.236231 1594.488189, 1860.236231 1417.322835, 1978.346446 1417.322835, 1978.346446 1594.488189' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='1860.236231' cy='1446.847441' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1870.500011' y='1452.752953'>0</text>
+        <ellipse cx='1978.346446' cy='1505.905512' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='1860.236231' cy='1564.963583' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='1872.000011' y='1570.869094'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT).BlkRef'>
+        <polygon fill='none' points='236.220472 1151.574803, 236.220472 1033.464567, 354.330709 1033.464567, 354.330709 1151.574803' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='236.220472' cy='1092.519685' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='354.330709' cy='1092.519685' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef'>
+        <polygon fill='none' points='1446.850401 1742.125979, 1387.795269 1742.125979, 1387.795269 1683.070871, 1446.850401 1683.070871' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='1443.897644 1739.173224, 1443.897644 1686.023627, 1390.748025 1686.023627, 1390.748025 1739.173224, 1443.897644 1739.173224' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='1454.232292 1748.031490, 1454.232292 1733.267713, 1446.850401 1727.362202' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1417.322835' cy='1742.125979' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='1417.322835' cy='1683.070871' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Selector.BlkRef'>
+        <polygon fill='none' points='2509.842622 797.244320, 2509.842622 177.165129, 2627.952654 177.165129, 2627.952654 797.244320' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='2627.952654' cy='383.868527' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='2509.842622' cy='383.868527' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2520.106401' y='389.774039'>0</text>
+        <ellipse cx='2509.842622' cy='620.087695' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2521.606401' y='625.993207'>1</text>
+        <ellipse cx='2509.842622' cy='708.666007' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='2520.106401' y='714.571519'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef'>
+        <polygon fill='none' points='2037.401575 442.913386, 2037.401575 324.803150, 2155.511811 324.803150, 2155.511811 442.913386' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='2043.307087 437.007874, 2149.606299 437.007874, 2149.606299 330.708661, 2043.307087 330.708661, 2043.307087 437.007874' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='2025.590551 457.677165, 2055.118110 457.677165, 2066.929134 442.913386' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='2167.322835 310.039370, 2137.795276 310.039370, 2125.984252 324.803150' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2037.401575' cy='383.858268' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='2155.511811' cy='383.858268' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\K.BlkRef'>
+        <polygon fill='none' points='1683.070866 442.913386, 1683.070866 324.803150, 1801.181102 324.803150, 1801.181102 442.913386' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='1683.070866' cy='383.858268' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='1801.181102' cy='383.858268' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\DBand.BlkRef'>
+        <polygon fill='none' points='1269.685039 442.913386, 1269.685039 324.803150, 1387.795276 324.803150, 1387.795276 442.913386' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='1275.590551 437.007874, 1381.889764 437.007874, 1381.889764 330.708661, 1275.590551 330.708661, 1275.590551 437.007874' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='1269.685039' cy='383.858268' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='1387.795276' cy='383.858268' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT).BlkRef'>
+        <polygon fill='none' points='442.913386 442.913386, 442.913386 324.803150, 561.023622 324.803150, 561.023622 442.913386' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='442.913386' cy='383.858268' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='561.023622' cy='383.858268' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iq Limits.BlkRef'>
+        <polygon fill='none' points='2893.700787 1151.574803, 2893.700787 1033.464567, 3011.811024 1033.464567, 3011.811024 1151.574803' stroke='#000000' stroke-width='2.362205' />
+        <polyline fill='none' points='2899.606299 1145.669291, 3005.905512 1145.669291, 3005.905512 1039.370079, 2899.606299 1039.370079, 2899.606299 1145.669291' stroke='#000000' stroke-width='1.181102' />
+        <polyline fill='none' points='3023.622047 1018.700787, 2994.094488 1018.700787, 2982.283465 1033.464567' stroke='#000000' stroke-width='1.181102' />
+        <ellipse cx='2893.700787' cy='1092.519685' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='3011.811024' cy='1092.519685' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+        <ellipse cx='2952.755906' cy='1033.464567' fill='#ff00ff' rx='5.314961' ry='5.314961' stroke='#ff00ff' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef'>
+        <polygon fill='none' points='590.551209 1240.157480, 590.551209 974.409449, 679.133830 974.409449, 679.133830 1240.157480' stroke='#000000' stroke-width='2.362205' />
+        <ellipse cx='590.551209' cy='1003.934055' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='600.814989' y='1009.839567'>0</text>
+        <ellipse cx='590.551209' cy='1210.632874' fill='#00bf00' rx='5.314961' ry='5.314961' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='14.763780' text-anchor='start' x='602.314989' y='1216.538386'>1</text>
+        <ellipse cx='679.133830' cy='1092.521161' fill='#ff0000' rx='5.314961' ry='5.314961' stroke='#ff0000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(4).BlkSum::TextBox 0'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1231.889764' y='1392.755906'>0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(4).BlkSum::TextBox 1'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1236.157480' y='1397.480315'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(4).BlkSum::TextBox 2'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1243.062992' y='1392.755906'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(4).BlkSum::TextBox 3'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1237.157480' y='1386.850394'>3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum::TextBox 0'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1084.251968' y='388.818898'>0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum::TextBox 1'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1088.519685' y='393.543307'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum::TextBox 2'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1095.425197' y='388.818898'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum::TextBox 3'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1089.519685' y='382.913386'>3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(3).BlkSum::TextBox 4'>
+        <text fill='#000000' font-family='Arial' font-size='26.574803' text-anchor='start' x='1057.992126' y='382.677165'>-</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(2).BlkSum::TextBox 0'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2767.322835' y='1097.480315'>0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(2).BlkSum::TextBox 1'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2771.590551' y='1102.204724'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(2).BlkSum::TextBox 2'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2778.496063' y='1097.480315'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(2).BlkSum::TextBox 3'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2772.590551' y='1091.574803'>3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum::TextBox 0'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2117.716535' y='1097.480315'>0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum::TextBox 1'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2121.984252' y='1102.204724'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum::TextBox 2'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2128.889764' y='1097.480315'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum::TextBox 3'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='2122.984252' y='1091.574803'>3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point(1).BlkSum::TextBox 5'>
+        <text fill='#000000' font-family='Arial' font-size='26.574803' text-anchor='start' x='2106.220472' y='1132.677165'>-</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum::TextBox 0'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1143.307087' y='1097.480315'>0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum::TextBox 1'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1147.574803' y='1102.204724'>1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum::TextBox 2'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1154.480315' y='1097.480315'>2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum::TextBox 3'>
+        <text fill='#000000' font-family='Courier New' font-size='9.448819' text-anchor='start' x='1148.574803' y='1091.574803'>3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Summation Point.BlkSum::TextBox 5'>
+        <text fill='#000000' font-family='Arial' font-size='26.574803' text-anchor='start' x='1131.811024' y='1132.677165'>-</text>
+      </g>
+    </g>
+    <g id='Signals'>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi6.BlkSig'>
+        <polyline fill='none' points='2842.027559 1092.519685, 2790.354331 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2842.027559 1092.519685, 2893.700787 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl2.BlkSig'>
+        <polyline fill='none' points='2864.173228 1830.707220, 2627.952756 1830.708661' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2864.173228 1830.707220, 3100.393701 1830.705733' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl1.BlkSig'>
+        <polyline fill='none' points='2864.173228 1712.599867, 2627.952756 1712.598425' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2864.173228 1712.599867, 3100.393701 1712.601399' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipcmd.BlkSig'>
+        <polyline fill='none' points='3218.503937 2185.038965, 3011.811024 2185.039257' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3218.503937 2185.038965, 3425.196850 2185.013091' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\PFAref.BlkSig'>
+        <polyline fill='none' points='162.401575 915.354871, 88.582677 915.390354' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='162.401575 915.354871, 236.220472 915.354331' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip.BlkSig'>
+        <polyline fill='none' points='2524.606299 2185.039370, 2155.511811 2185.039370' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2524.606299 2185.039370, 2893.700787 2185.039370' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqinj.BlkSig'>
+        <polyline fill='none' points='2775.590551 730.807087, 2775.590551 383.858268, 2627.952576 383.846373' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2775.590551 730.807087, 2775.590551 1077.755906' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt_filt.BlkSig'>
+        <polyline fill='none' points='819.389764 383.858268, 561.023622 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='819.389764 383.858268, 1077.755906 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(1).BlkSig'>
+        <polyline fill='none' points='767.716535 1328.740157, 767.716535 1092.519685, 679.133858 1092.520856' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='767.716535 1328.740157, 767.716535 1564.960630, 1240.157480 1564.960630, 1240.157480 1402.559055' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi7.BlkSig'>
+        <polyline fill='none' points='1424.704724 1387.792302, 1254.921260 1387.795276' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1424.704724 1387.792302, 1594.488189 1387.798339' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pord.BlkSig'>
+        <polyline fill='none' points='1934.055118 2185.039370, 1771.653543 2185.039370' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1934.055118 2185.039370, 2096.456693 2185.039370' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Speed.BlkSig'>
+        <polyline fill='none' points='472.441486 1978.349295, 88.582677 1978.374508' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='472.441486 1978.349295, 856.299213 1978.345646, 856.299213 2066.929134' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi11.BlkSig'>
+        <polyline fill='none' points='1062.992126 2096.456693, 885.826772 2096.456693' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1062.992126 2096.456693, 1240.157480 2096.453719' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o6(1).BlkSig'>
+        <polyline fill='none' points='944.881890 2214.566929, 649.606299 2214.566929, 649.606299 2155.511811, 442.913386 2155.511811' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='944.881890 2214.566929, 1240.157480 2214.569880' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o6.BlkSig'>
+        <polyline fill='none' points='738.188976 2096.456693, 649.606299 2096.456693, 649.606299 2155.511811, 442.913386 2155.511811' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='738.188976 2096.456693, 826.771654 2096.456693' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qcalc.BlkSig'>
+        <polyline fill='none' points='546.259843 1003.935836, 501.968504 1003.937008' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='546.259843 1003.935836, 590.551181 1003.934034' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pref.BlkSig'>
+        <polyline fill='none' points='206.693094 2155.512104, 88.582677 2155.544291' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='206.693094 2155.512104, 324.803150 2155.511991' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(1).BlkSig'>
+        <polyline fill='none' points='930.118110 708.661417, 915.354331 708.661417' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='930.118110 708.661417, 944.881890 708.661417, 944.881890 797.244094, 1062.992126 797.244094' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o2.BlkSig'>
+        <polyline fill='none' points='472.440945 1062.992126, 472.440945 1092.519685, 354.330709 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='472.440945 1062.992126, 472.440945 1033.464567' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(2).BlkSig'>
+        <polyline fill='none' points='1077.755906 1564.960630, 767.716535 1564.960630, 767.716535 1092.519685, 679.133858 1092.520856' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1077.755906 1564.960630, 1387.795276 1564.960630' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi8.BlkSig'>
+        <polyline fill='none' points='2288.385827 1505.905512, 1978.346457 1505.905512' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2288.385827 1505.905512, 2598.425197 1505.905512' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o1.BlkSig'>
+        <polyline fill='none' points='472.440945 944.881890, 472.440945 915.354331, 354.330709 915.354331' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='472.440945 944.881890, 472.440945 974.409449' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip.BlkSig'>
+        <polyline fill='none' points='1712.598425 708.661417, 915.354331 708.661417' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqfrz.BlkSig'>
+        <polyline fill='none' points='1299.212689 620.096943, 88.582677 620.115059' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1299.212689 620.096943, 2509.842700 620.078740' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt.BlkSig'>
+        <polyline fill='none' points='265.748031 383.881336, 88.582677 383.904035' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='265.748031 383.881336, 442.913386 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vdif.BlkSig'>
+        <polyline fill='none' points='1188.484252 383.858268, 1107.283465 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1188.484252 383.858268, 1269.685039 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Verr.BlkSig'>
+        <polyline fill='none' points='1535.433071 383.858268, 1387.795276 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1535.433071 383.858268, 1683.070866 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqv.BlkSig'>
+        <polyline fill='none' points='1919.291339 383.858268, 1801.181102 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1919.291339 383.858268, 2037.401575 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqvlim.BlkSig'>
+        <polyline fill='none' points='2332.677165 383.858268, 2155.511811 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2332.677165 383.858268, 2509.842700 383.858268' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqcmd.BlkSig'>
+        <polyline fill='none' points='3218.503937 1092.519054, 3011.811024 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3218.503937 1092.519054, 3425.196850 1092.491043' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o5.BlkSig'>
+        <polyline fill='none' points='2723.917323 1092.504907, 2687.007874 1092.490129' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2723.917323 1092.504907, 2760.826772 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi5.BlkSig'>
+        <polyline fill='none' points='2509.842520 1092.504907, 2421.259843 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2509.842520 1092.504907, 2598.425197 1092.490039' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o4.BlkSig'>
+        <polyline fill='none' points='2030.019685 1092.519685, 1948.818898 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2030.019685 1092.519685, 2111.220472 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi3.BlkSig'>
+        <polyline fill='none' points='1756.889764 1092.525632, 1683.070866 1092.537347' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1756.889764 1092.525632, 1830.708661 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi2.BlkSig'>
+        <polyline fill='none' points='1550.196850 1092.527615, 1505.905512 1092.524100' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1550.196850 1092.527615, 1594.488189 1092.537347' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qgen.BlkSig'>
+        <polyline fill='none' points='620.078740 1299.212598, 88.582677 1299.233268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='620.078740 1299.212598, 1151.574803 1299.212598, 1151.574803 1107.283465' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o3.BlkSig'>
+        <polyline fill='none' points='1055.610236 1092.519685, 974.409449 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1055.610236 1092.519685, 1136.811024 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi.BlkSig'>
+        <polyline fill='none' points='767.716535 1092.520316, 679.133858 1092.520856' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='767.716535 1092.520316, 856.299213 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip(1).BlkSig'>
+        <polyline fill='none' points='2465.551181 2185.039370, 2155.511811 2185.039370' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2465.551181 2185.039370, 2775.590551 2185.039370, 2775.590551 1948.818898, 3100.393701 1948.810067' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(3).BlkSig'>
+        <polyline fill='none' points='1712.598425 708.661417, 915.354241 708.661417' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1712.598425 708.661417, 2509.842700 708.661417' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\pflag.BlkSig'>
+        <polyline fill='none' points='147.637795 1771.653543, 88.582677 1771.655315' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='147.637795 1771.653543, 206.692913 1771.653543' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze_low_s.BlkSig'>
+        <polyline fill='none' points='1328.740157 1269.685039, 1269.685039 1269.685039' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1328.740157 1269.685039, 1387.795276 1269.685039, 1387.795276 1181.102362' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze_up_s.BlkSig'>
+        <polyline fill='none' points='1328.740157 885.826772, 1269.685039 885.826772' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1328.740157 885.826772, 1387.795276 885.826772, 1387.795276 974.409449' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o11.BlkSig'>
+        <polyline fill='none' points='2465.551181 1003.937008, 2421.259843 1003.937008' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2465.551181 1003.937008, 2509.842520 1003.937008' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o10.BlkSig'>
+        <polyline fill='none' points='2465.551181 1181.102362, 2421.259843 1181.102362' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2465.551181 1181.102362, 2509.842520 1181.102362' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt(1).BlkSig'>
+        <polyline fill='none' points='383.858268 546.259843, 383.858268 383.858268, 88.582677 383.904035' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='383.858268 546.259843, 383.858268 708.661417, 738.189021 708.661417' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref0_sig.BlkSig'>
+        <polyline fill='none' points='974.409449 501.968504, 856.299213 501.968504' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='974.409449 501.968504, 1092.519685 501.968504, 1092.519685 398.622047' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt_filt(1).BlkSig'>
+        <polyline fill='none' points='708.661417 383.858268, 561.023622 383.858268' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='708.661417 383.858268, 856.299213 383.858268, 856.299213 265.748031, 915.354331 265.748031' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(4).BlkSig'>
+        <polyline fill='none' points='1313.976378 1860.236220, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1313.976378 1860.236220, 1417.322835 1860.236220, 1417.322835 1742.125984' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\voltage_dip.BlkSig'>
+        <polyline fill='none' points='3011.811024 1889.760851, 2923.228346 1889.763780' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3011.811024 1889.760851, 3100.393701 1889.757922' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(3).BlkSig'>
+        <polyline fill='none' points='1668.307087 1860.236220, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1668.307087 1860.236220, 2125.984252 1860.236220, 2125.984252 2007.874016' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref1_sig.BlkSig'>
+        <polyline fill='none' points='1129.429134 1387.795276, 1033.464567 1387.795276' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1129.429134 1387.795276, 1225.393701 1387.795276' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqmax(1).BlkSig'>
+        <polyline fill='none' points='2834.645669 915.354331, 3366.141732 915.354331, 3366.141732 1712.598425, 3307.086614 1712.601399' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2834.645669 915.354331, 2303.149606 915.354331, 2303.152490 974.409449' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(2).BlkSig'>
+        <polyline fill='none' points='1668.307087 1860.236220, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1668.307087 1860.236220, 2125.984252 1860.236220, 2125.984252 1830.708661, 2480.314961 1830.708661' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(2).BlkSig'>
+        <polyline fill='none' points='2583.661417 826.771654, 1742.125984 826.771654, 1742.125984 708.661417, 915.354241 708.661417' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2583.661417 826.771654, 3425.196850 826.753642' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(1).BlkSig'>
+        <polyline fill='none' points='1668.307087 1860.236220, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1668.307087 1860.236220, 2125.984252 1860.236220, 2125.984252 1712.598425, 2480.314961 1712.598425' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9.BlkSig'>
+        <polyline fill='none' points='1668.307087 1860.236220, 1210.629921 1860.236220' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1668.307087 1860.236220, 2125.984252 1860.236220, 2125.984252 1107.283465' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pord(1).BlkSig'>
+        <polyline fill='none' points='2672.244094 2332.666825, 1919.291339 2332.677165, 1919.291339 2185.039370, 1771.653543 2185.039370' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2672.244094 2332.666825, 3425.196850 2332.656496' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o8.BlkSig'>
+        <polyline fill='none' points='1417.322835 1638.779528, 1417.322835 1683.070866' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1417.322835 1638.779528, 1417.322835 1594.488189' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqcmd(1).BlkSig'>
+        <polyline fill='none' points='3041.338583 1343.503937, 3041.338583 1092.519685, 3011.811024 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3041.338583 1343.503937, 3041.338583 1594.488189, 3100.393701 1594.497020' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qext.BlkSig'>
+        <polyline fill='none' points='339.566929 1210.634066, 88.582677 1210.654134' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='339.566929 1210.634066, 590.551181 1210.632895' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi9.BlkSig'>
+        <polyline fill='none' points='1653.543307 1564.960630, 1446.850394 1564.960630' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1653.543307 1564.960630, 1860.236220 1564.963604' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o7.BlkSig'>
+        <polyline fill='none' points='2125.984252 2111.220472, 2125.984252 2066.929134' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2125.984252 2111.220472, 2125.984252 2155.511811' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze3.BlkSig'>
+        <polyline fill='none' points='1801.181102 1446.848952, 1771.653543 1446.850394' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1801.181102 1446.848952, 1860.236220 1446.847420' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi4.BlkSig'>
+        <polyline fill='none' points='2192.421260 1092.519685, 2140.748031 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2192.421260 1092.519685, 2244.094488 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze2.BlkSig'>
+        <polyline fill='none' points='2155.511811 974.409449, 2155.511811 915.354331, 2096.456693 915.354331' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='2155.511811 974.409449, 2155.511811 1033.464567, 2244.094488 1033.464567' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi1.BlkSig'>
+        <polyline fill='none' points='1218.011811 1092.521758, 1166.338583 1092.519685' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1218.011811 1092.521758, 1269.685039 1092.524100' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi10.BlkSig'>
+        <polyline fill='none' points='1505.905512 2214.563978, 1358.267717 2214.561027' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1505.905512 2214.563978, 1653.543307 2214.566929' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze1.BlkSig'>
+        <polyline fill='none' points='1181.102362 959.645669, 1181.102362 885.826772, 1092.519685 885.826772' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1181.102362 959.645669, 1181.102362 1033.464567, 1269.685039 1033.461593' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze.BlkSig'>
+        <polyline fill='none' points='1594.488189 2096.456693, 1594.488189 2037.401575, 1564.960630 2037.401575' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='1594.488189 2096.456693, 1594.488189 2155.511811, 1653.543307 2155.511811' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipmax.BlkSig'>
+        <polyline fill='none' points='3144.685039 2037.401575, 3366.141732 2037.401575, 3366.141732 1801.181102, 3307.086614 1801.189978' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3144.685039 2037.401575, 2923.228346 2037.401575, 2923.228346 2125.984252' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqmax.BlkSig'>
+        <polyline fill='none' points='3366.141732 1313.976378, 3366.141732 1712.598425, 3307.086614 1712.601399' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='3366.141732 1313.976378, 3366.141732 915.354331, 2952.755906 915.354331, 2952.755906 1033.464567' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pe.BlkSig'>
+        <polyline fill='none' points='162.401575 1092.522028, 88.582677 1092.548622' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='162.401575 1092.522028, 236.220472 1092.519685' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi6.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2893.700787 1092.519685, 2864.173228 1098.425197, 2864.173228 1086.614173' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl2.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3100.393701 1830.705733, 3070.866179 1836.611430, 3070.866105 1824.800407' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl1.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3100.393701 1712.601399, 3070.866103 1718.506719, 3070.866180 1706.695696' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipcmd.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3425.196850 2185.013091, 3395.670031 2190.922299, 3395.668552 2179.111275' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\PFAref.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='236.220472 915.354331, 206.692957 921.260059, 206.692870 909.449035' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2893.700787 2185.039370, 2864.173228 2190.944882, 2864.173228 2179.133858' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqinj.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2775.590551 1077.755906, 2769.685039 1048.228346, 2781.496063 1048.228346' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt_filt.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1077.755906 383.858268, 1048.228346 389.763780, 1048.228346 377.952756' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1240.157480 1402.559055, 1246.062992 1432.086614, 1234.251969 1432.086614' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi7.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1594.488189 1387.798339, 1564.960420 1393.702801, 1564.960840 1381.891778' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pord.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2096.456693 2185.039370, 2066.929134 2190.944882, 2066.929134 2179.133858' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Speed.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='856.299213 2066.929134, 850.393701 2037.401575, 862.204724 2037.401575' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi11.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1240.157480 2096.453719, 1210.630020 2102.359727, 1210.629822 2090.548703' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o6(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1240.157480 2214.569880, 1210.629862 2220.475097, 1210.629980 2208.664073' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o6.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='826.771654 2096.456693, 797.244094 2102.362205, 797.244094 2090.551181' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qcalc.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='590.551181 1003.934034, 561.023862 1009.840747, 561.023382 998.029724' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pref.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='324.803150 2155.511991, 295.275596 2161.417531, 295.275585 2149.606508' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1062.992126 797.244094, 1033.464567 803.149606, 1033.464567 791.338583' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o2.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='472.440945 1033.464567, 478.346457 1062.992126, 466.535433 1062.992126' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(2).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1387.795276 1564.960630, 1358.267717 1570.866142, 1358.267717 1559.055118' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi8.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2598.425197 1505.905512, 2568.897638 1511.811024, 2568.897638 1500.000000' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o1.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='472.440945 974.409449, 466.535433 944.881890, 478.346457 944.881890' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqfrz.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2509.842700 620.078740, 2480.315230 625.984696, 2480.315052 614.173672' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='442.913386 383.858268, 413.386596 389.767624, 413.385058 377.956601' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vdif.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1269.685039 383.858268, 1240.157480 389.763780, 1240.157480 377.952756' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Verr.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1683.070866 383.858268, 1653.543307 389.763780, 1653.543307 377.952756' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqv.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2037.401575 383.858268, 2007.874016 389.763780, 2007.874016 377.952756' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqvlim.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2509.842700 383.858268, 2480.315141 389.763780, 2480.315141 377.952756' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqcmd.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3425.196850 1092.491043, 3395.670092 1098.400557, 3395.668491 1086.589533' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o5.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2760.826772 1092.519685, 2731.296850 1098.413374, 2731.301579 1086.602351' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi5.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2598.425197 1092.490039, 2568.898629 1098.400506, 2568.896647 1086.589483' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o4.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2111.220472 1092.519685, 2081.692913 1098.425197, 2081.692913 1086.614173' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi3.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1830.708661 1092.519685, 1801.181578 1098.427576, 1801.180627 1086.616552' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi2.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1594.488189 1092.537347, 1564.959333 1098.436370, 1564.961928 1086.625347' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qgen.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1151.574803 1107.283465, 1157.480315 1136.811024, 1145.669291 1136.811024' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o3.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1136.811024 1092.519685, 1107.283465 1098.425197, 1107.283465 1086.614173' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='856.299213 1092.519685, 826.771696 1098.425407, 826.771611 1086.614383' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3100.393701 1948.810067, 3070.866302 1954.716381, 3070.865981 1942.905358' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(3).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2509.842700 708.661417, 2480.315141 714.566929, 2480.315141 702.755906' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\pflag.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='206.692913 1771.653543, 177.165354 1777.559055, 177.165354 1765.748031' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze_low_s.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1387.795276 1181.102362, 1393.700787 1210.629921, 1381.889764 1210.629921' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze_up_s.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1387.795276 974.409449, 1381.889764 944.881890, 1393.700787 944.881890' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o11.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2509.842520 1003.937008, 2480.314961 1009.842520, 2480.314961 998.031496' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o10.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2509.842520 1181.102362, 2480.314961 1187.007874, 2480.314961 1175.196850' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='738.189021 708.661417, 708.661462 714.566929, 708.661462 702.755906' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref0_sig.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1092.519685 398.622047, 1098.425197 428.149606, 1086.614173 428.149606' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt_filt(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='915.354331 265.748031, 885.826772 271.653543, 885.826772 259.842520' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(4).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1417.322835 1742.125984, 1423.228346 1771.653543, 1411.417323 1771.653543' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\voltage_dip.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3100.393701 1889.757922, 3070.866337 1895.664410, 3070.865947 1883.853387' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(3).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2125.984252 2007.874016, 2120.078740 1978.346457, 2131.889764 1978.346457' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref1_sig.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1225.393701 1387.795276, 1195.866142 1393.700787, 1195.866142 1381.889764' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqmax(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2303.152490 974.409449, 2297.245536 944.882178, 2309.056560 944.881601' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(2).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2480.314961 1830.708661, 2450.787402 1836.614173, 2450.787402 1824.803150' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip(2).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3425.196850 826.753642, 3395.669418 832.659786, 3395.669165 820.848762' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2480.314961 1712.598425, 2450.787402 1718.503937, 2450.787402 1706.692913' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2125.984252 1107.283465, 2131.889764 1136.811024, 2120.078740 1136.811024' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pord(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3425.196850 2332.656496, 3395.669372 2338.562413, 3395.669210 2326.751389' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o8.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1417.322835 1594.488189, 1423.228346 1624.015748, 1411.417323 1624.015748' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqcmd(1).BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='3100.393701 1594.497020, 3070.865259 1600.398116, 3070.867025 1588.587093' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qext.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='590.551181 1210.632895, 561.023650 1216.538545, 561.023594 1204.727521' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi9.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1860.236220 1564.963604, 1830.708576 1570.868691, 1830.708746 1559.057667' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o7.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2125.984252 2155.511811, 2120.078740 2125.984252, 2131.889764 2125.984252' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze3.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1860.236220 1446.847420, 1830.708815 1452.753698, 1830.708508 1440.942674' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi4.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2244.094488 1092.519685, 2214.566929 1098.425197, 2214.566929 1086.614173' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze2.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2244.094488 1033.464567, 2214.566929 1039.370079, 2214.566929 1027.559055' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi1.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1269.685039 1092.524100, 1240.157213 1098.428273, 1240.157748 1086.617250' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi10.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1653.543307 2214.566929, 1624.015630 2220.471851, 1624.015866 2208.660827' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze1.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1269.685039 1033.461593, 1240.157679 1039.368096, 1240.157282 1027.557073' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='1653.543307 2155.511811, 1624.015748 2161.417323, 1624.015748 2149.606299' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipmax.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2923.228346 2125.984252, 2917.322835 2096.456693, 2929.133858 2096.456693' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqmax.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='2952.755906 1033.464567, 2946.850394 1003.937008, 2958.661417 1003.937008' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pe.BlkSig::LineAttribs'>
+        <polygon fill='#000000' points='236.220472 1092.519685, 206.693101 1098.426134, 206.692726 1086.615110' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Cross Points'>
+        <g id='Cross Point'>
+          <ellipse cx='1240.157480' cy='1564.960630' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='944.881890' cy='708.661417' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='649.606299' cy='2155.511811' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='2125.984252' cy='1712.598425' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='2125.984252' cy='1830.708661' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='3041.338583' cy='1092.519685' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='1919.291339' cy='2185.039370' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='1742.125984' cy='708.661417' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='2952.755906' cy='915.354331' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='2125.984252' cy='1860.236220' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='1417.322835' cy='1860.236220' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='856.299213' cy='383.858268' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='383.858268' cy='383.858268' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='1742.125984' cy='708.661417' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='2775.590551' cy='2185.039370' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+        <g id='Cross Point'>
+          <ellipse cx='767.716535' cy='1092.519685' fill='#000000' rx='5.905512' ry='5.905512' stroke='#000000' stroke-width='1.000000' />
+        </g>
+      </g>
+    </g>
+    <g id='Labels'>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi6.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2829.027558' y='1083.897638'>yi6</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl2.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2845.683762' y='1822.085177'>vdl2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\vdl1.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2847.183762' y='1703.977824'>vdl1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipcmd.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3191.503941' y='2176.416917'>Ipcmd</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\PFAref.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='130.901579' y='906.732824'>PFAref</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2516.106299' y='2176.417323'>Ip</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqinj.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2800.486372' y='689.666239'>Iqinj</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt_filt.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='793.889768' y='375.236220'>Vt_filt</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(1).BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,742.086614,1347.740158)' x='742.086614' y='1364.748032'>yi(1)</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi7.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1411.704724' y='1379.170255'>yi7</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pord.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1913.555122' y='2176.417323'>Pord</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Speed.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='124.205458' y='1966.135191'>Speed</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pref.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='117.649743' y='2141.052965'>Pref</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi(2).BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1058.755905' y='1556.338583'>yi(2)</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi8.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2275.385826' y='1497.283465'>yi8</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Voltage_Dip.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1656.573610' y='695.830943'>Voltage_Dip</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vt.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='112.822450' y='369.984196'>Vt</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vdif.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1169.484251' y='375.236220'>Vdif</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Verr.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1515.933075' y='375.236220'>Verr</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqv.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1905.791343' y='375.236220'>Iqv</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqvlim.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2307.677165' y='375.236220'>Iqvlim</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqcmd.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3191.503941' y='1083.897007'>Iqcmd</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o5.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2712.417322' y='1083.882860'>o5</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi5.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2496.842519' y='1083.882860'>yi5</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o4.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2018.519684' y='1083.897638'>o4</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi3.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1743.889763' y='1083.903585'>yi3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi2.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1537.196850' y='1083.905568'>yi2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qgen.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='141.371952' y='1284.257280'>Qgen</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o3.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1044.110236' y='1083.897638'>o3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='760.216535' y='1083.898269'>yi</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip(1).BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2445.551181' y='2176.417323'>Ip(1)</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\pflag.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='126.148329' y='1763.031500'>pflag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref0_sig.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='931.909448' y='493.346457'>Vref0_sig</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9(4).BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1294.476377' y='1851.614173'>o9(..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\voltage_dip.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2961.811023' y='1881.138804'>voltage_dip</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o9.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1656.807086' y='1851.614173'>o9</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\o8.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,1391.692913,1650.279528)' x='1391.692913' y='1667.287402'>o8</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Qext.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='318.566933' y='1202.012019'>Qext</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi9.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1640.543307' y='1556.338583'>yi9</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze3.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1768.181102' y='1438.226905'>freeze3</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi4.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2179.421259' y='1083.897638'>yi4</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\freeze2.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,2129.881890,1007.409445)' x='2129.881890' y='1024.417319'>freeze2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\yi1.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1206.511810' y='1083.899710'>yi1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ipmax.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3188.885359' y='2025.122587'>Ipmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iqmax.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3149.863434' y='898.471902'>Iqmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Pe.BlkSig::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='150.401579' y='1083.899981'>Pe</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A.BlkDef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='26.574803' text-anchor='start' x='88.582677' y='57.874016'>REEC_A: WECC PQ Controller and Current Limit Logic</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\VDL.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2534.133858' y='1828.818898'>VDL</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2510.133858' y='1847.716535'>array_vdl2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\VDL.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2534.133858' y='1710.708661'>VDL</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2511.633858' y='1729.606299'>array_vdl1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Current Limit Logic.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3123.740157' y='1769.763780'>Current Limit Logic</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='3123.740157' y='1788.661417'>PqFlag,Imax,Thld2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Rate Limiter.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='332.358268' y='2153.622047'>Rate Limiter</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Fault Detection.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='764.027189' y='706.771653'>Fault Detection</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='787.527189' y='725.669291'>Vdip,Vup</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\check_PFlag.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='224.511811' y='1769.763780'>check_PFlag</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='255.511811' y='1788.661417'>PFlag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(7).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1211.751969' y='1277.244094'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(6).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1211.751969' y='893.385827'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Goto(2).BlkGoto::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2522.775591' y='1188.661417'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Goto(1).BlkGoto::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2522.775591' y='1011.496063'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Const.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='948.409449' y='1385.905512'>Const</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='951.409449' y='1404.803150'>Vref1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Vref0_select.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='711.716535' y='500.078740'>Vref0_select</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='743.216535' y='518.976378'>Vref0</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(5).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1149.696850' y='1867.795276'>Vt_filt</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(4).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2865.295276' y='1897.322835'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(3).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1507.027559' y='2044.960630'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(2).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1713.720472' y='1454.409449'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From(1).BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2038.523622' y='922.913386'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\From.BlkFrom::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1034.586614' y='893.385827'>free..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2609.216535' y='1267.795276'>Input s..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2616.216535' y='1286.692913'>QFlag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze_signals.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2250.677165' y='1090.629921'>[Kp+Ki/s]_freeze_..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2252.177165' y='1109.527559'>Kvp,Kvi,QFlag,VF..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1855.763780' y='1090.629921'>+-Limits</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1605.279528' y='1238.267717'>Input s..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1612.779528' y='1257.165354'>VFlag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1316.295276' y='1075.866142'>[Kp+Ki/s]_freeze</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1297.795276' y='1094.763780'>Kqp,Kqi,VFlag,QFlag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='881.354331' y='1090.629921'>+-Limits</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\tan().BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='275.775591' y='913.464567'>tan()</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Ip Limits.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2916.755906' y='2183.149606'>Ip Limits</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[1/(1+sT)]_freeze.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1666.098425' y='2197.913386'>[1/(1+sT)]..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1686.598425' y='2216.811024'>Tpord</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1247.712598' y='2153.622047'>Input selec..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1274.212598' y='2172.519685'>PFlag</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,2107.086614,2059.901575)' x='2107.086614' y='2076.909449'>Low..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT)_freeze.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1869.791339' y='1504.015748'>1/(1+sT)_f..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1905.291339' y='1522.913386'>Tiq</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT).BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='259.275591' y='1090.629921'>1/(1+sT)</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='283.275591' y='1109.527559'>Tp</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,1398.425197,1735.098425)' x='1398.425197' y='1752.106299'>Low..</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Selector.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2532.397638' y='485.314961'>Selector</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2549.897638' y='504.212598'>Thld</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2062.456693' y='381.968504'>+-Limits</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\K.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1735.125984' y='381.968504'>K</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1725.125984' y='400.866142'>Kqv</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\DBand.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1299.740157' y='381.968504'>DBand</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1292.740157' y='400.866142'>db1,db2</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\1/(1+sT).BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='465.968504' y='381.968504'>1/(1+sT)</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='487.468504' y='400.866142'>Trv</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Iq Limits.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2916.755906' y='1090.629921'>Iq Limits</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Input selector.BlkRef::TextBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='601.342520' y='1105.393701'>Input s..</text>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='606.842520' y='1124.291339'>PfFlag</text>
+      </g>
+    </g>
+    <g id='Device data'>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Rate Limiter.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='412.413386' y='2077.440945'>dPmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Rate Limiter.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='297.303150' y='2248.700787'>dPmin</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1923.318898' y='1014.448819'>Vmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1808.208661' y='1185.708661'>Vmin</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1483.644717' y='944.287812'>Vmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[Kp+Ki/s]_freeze.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1237.004681' y='1204.130332'>Vmin</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='948.409449' y='1014.448819'>Qmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='833.299213' y='1185.708661'>Qmin</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[1/(1+sT)]_freeze.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1747.153543' y='2106.968504'>Pmax</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\[1/(1+sT)]_freeze.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='1632.043307' y='2307.755906'>Pmin</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,2172.637795,2084.929134)' x='2172.637795' y='2101.937008'>0.01</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\Low Limit.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' transform='rotate(270.000000,1463.976385,1760.125979)' x='1463.976385' y='1777.133853'>0.01</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 1'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2138.011811' y='305.787402'>Iqh1</text>
+      </g>
+      <g id='Templates\Solar WECC\Library\Tipos\Dynamic Models\WECC\REEC_A\+-Limits.BlkRef::TextBox 2'>
+        <text fill='#000000' font-family='Arial' font-size='18.897638' text-anchor='start' x='2022.901575' y='477.047244'>Iql1</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
