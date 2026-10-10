@@ -1,0 +1,4 @@
+P_inicial = 19,9 MW
+P_final = 18,49 MW
+Tr = 0,1821 s - 19,86 MW
+Te = 9,78 s - 18,53 MW
