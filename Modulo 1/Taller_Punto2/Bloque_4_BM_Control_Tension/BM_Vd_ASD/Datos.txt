@@ -1,0 +1,4 @@
+V_inicial = 1,000 p.u
+V_final = 1,001 p.u
+Q_inicial = 0 MVar
+Q_final = -0,4929 MVar

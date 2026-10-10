@@ -1,0 +1,6 @@
+fp_inicial = 1
+fp_final = 0,98
+Q_inicial = 0 Mvar
+Q_final = -2,018 MVar
+Tr = 0,04167 s - (-0.06055) MVar
+Te = 4,712 s - (-1,958) MVar

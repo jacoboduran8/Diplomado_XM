@@ -1,0 +1,4 @@
+Q_inicial = 0 MVar
+Q_final = -1,093 MVar
+Tr = 0,04349 s - 0,03025 MVar
+Te = 4,629 s - (-1,061) MVar
