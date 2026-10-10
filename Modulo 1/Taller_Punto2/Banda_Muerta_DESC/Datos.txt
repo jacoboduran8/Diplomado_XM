@@ -1,0 +1,3 @@
+f_final = 59,97 Hz
+P_inicial = 9,95 MW
+P_final = 9,958 MW
