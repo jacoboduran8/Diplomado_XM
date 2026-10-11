@@ -1,0 +1,11 @@
+V_antes = 
+V_falla = 
+V_despues = 
+t_recupera = 
+Iq_antes = 
+Iq_falla = 
+t_90 = 
+Iq_sostenimiento = 
+t_fin_sostenimiento = 
+Iq_final = 
+Dispara = 
