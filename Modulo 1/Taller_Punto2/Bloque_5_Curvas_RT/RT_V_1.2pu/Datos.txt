@@ -1,5 +1,3 @@
-Valor_aplicado = 57,5 Hz
-Dispara = NO
-t_disparo = N/A
-P_antes = 20,33 MW
-P_despues = 22,07 MW
+Valor_aplicado = 1,2 p.u
+Dispara = SI
+t_disparo = 2,012 s
