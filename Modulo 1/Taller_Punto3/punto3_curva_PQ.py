@@ -154,14 +154,27 @@ def cmd_graficar(a):
             r = sum(math.hypot(x["p"], x["q"]) for x in scl) / len(scl)
             ax.plot([r * math.cos(t) for t in th], [r * math.sin(t) for t in th], ":",
                     color=LIMITADORES["SCL"], lw=1.2,
-                    label=f"Circulo corriente de estator |S| = {r:.1f} MVA")
+                    label=f"Círculo de corriente de estator |S| = {r:.1f} MVA")
+        r = a.sn * a.v
+        ax.plot([r * math.cos(t) for t in th], [r * math.sin(t) for t in th], "--",
+                color="#95A5A6", lw=1.0,
+                label=f"Corriente nominal de estator (Sn = {a.sn:.1f} MVA)")
+        uel = sorted([x for x in pts if x["lim"] == "UEL"], key=lambda x: x["p"])
+        if len(uel) >= 2:
+            n = len(uel)
+            mp = sum(x["p"] for x in uel) / n
+            mq = sum(x["q"] for x in uel) / n
+            m = sum((x["p"] - mp) * (x["q"] - mq) for x in uel) / sum((x["p"] - mp) ** 2 for x in uel)
+            ps = [uel[0]["p"] - 10, uel[-1]["p"] + 10]
+            ax.plot([mq + m * (pp - mp) for pp in ps], ps, ":", color=LIMITADORES["UEL"], lw=1.2,
+                    label=f"Recta UEL ajustada ({m:+.2f} Mvar/MW)")
         oel = [x for x in pts if x["lim"] == "OEL"]
         if oel:
             qc = -(a.v ** 2) * a.sn / a.xd
             r = sum(math.hypot(x["p"], x["q"] - qc) for x in oel) / len(oel)
             ax.plot([qc + r * math.cos(t) for t in th], [r * math.sin(t) for t in th], ":",
                     color=LIMITADORES["OEL"], lw=1.2,
-                    label=f"Circulo corriente de campo (centro Q = {qc:.1f} Mvar)")
+                    label=f"Círculo de corriente de campo (centro Q = {qc:.1f} Mvar)")
 
     # puntos por limitador
     vistos = set()
@@ -193,9 +206,12 @@ def cmd_graficar(a):
     qmin, qmax = min(x["q"] for x in pts), max(x["q"] for x in pts)
     m = 0.18 * (qmax - qmin)
     ax.set_xlim(qmin - m, qmax + m)
-    ax.text(0.02, 0.98, "Subexcitacion\n(absorbe Q)", transform=ax.transAxes, va="top",
+    if a.sn:
+        ax.set_xlim(min(qmin - m, -0.5 * a.sn), max(qmax + m, 1.08 * a.sn))
+        ax.set_ylim(0, 1.06 * a.sn)
+    ax.text(0.02, 0.02, "Subexcitación\n(absorbe Q)", transform=ax.transAxes, va="bottom",
             fontsize=9, color="#566573")
-    ax.text(0.98, 0.98, "Sobreexcitacion\n(entrega Q)", transform=ax.transAxes, va="top",
+    ax.text(0.98, 0.02, "Sobreexcitación\n(entrega Q)", transform=ax.transAxes, va="bottom",
             ha="right", fontsize=9, color="#566573")
     ax.grid(alpha=0.25)
     ax.legend(loc="lower center", fontsize=8.5, frameon=False, ncol=3,
@@ -227,7 +243,7 @@ def main():
     g = sp.add_parser("graficar", help="dibujar la curva PQ desde Resultados_PQ.csv")
     g.add_argument("tabla")
     g.add_argument("--salida", default="Curva_PQ_SINC_UPB.png")
-    g.add_argument("--titulo", default="Curva PQ estimada - Unidad sincronica SINC_UPB")
+    g.add_argument("--titulo", default="Curva PQ estimada - Unidad sincrónica SINC_UPB")
     g.add_argument("--sn", type=float, help="potencia aparente nominal (MVA)")
     g.add_argument("--xd", type=float, help="reactancia sincronica xd (p.u.)")
     g.add_argument("--v", type=float, default=1.0, help="tension en bornes (p.u.)")

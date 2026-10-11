@@ -1,9 +1,9 @@
-# Llene una fila por cada caso de la carpeta Curva_PQ. Q en Mvar: positivo = sobreexcitacion, negativo = subexcitacion.
-# Limitador: escriba OEL, UEL, SCL, MEL o V/Hz (el que se activa en ese caso). Vt, It, Ifd son opcionales (valor final en p.u.).
+# Resultados de los casos de la carpeta Curva_PQ (SINC_UPB.pfd). Valores finales leidos en t = 90 s.
+# Q positivo = sobreexcitacion, Q negativo = subexcitacion.
 Caso;Region;P_MW;Q_Mvar;Vt_pu;It_pu;Ifd_pu;Limitador;Nota
-Punto_30.0MW_Q_Positivo;Sobreexcitacion;30;49.02;;;;OEL;Q transitoria ~58.5 Mvar por ~49 s y luego OEL (acumulador IxT) la baja a 49.02
-;Sobreexcitacion;40;;;;;;
-;Sobreexcitacion;50;;;;;;
-;Subexcitacion;30;;;;;;
-;Subexcitacion;40;;;;;;
-;Subexcitacion;50;;;;;;
+Punto_30.0MW_Q_Positivo;Sobreexcitacion;30;49.02;;;;OEL;Forma A: ~58.2 Mvar transitorio hasta ~58 s y baja a 49.02
+Punto_40.0MW_Q_Positivo;Sobreexcitacion;40;45.17;;;;OEL;Forma A: ~54.5 Mvar transitorio hasta ~58 s y baja a 45.17
+Punto_50.0MW_Q_Positivo;Sobreexcitacion;50;39.89;;;;OEL;Forma A: ~50.0 Mvar transitorio hasta ~57 s y baja a 39.89
+Punto_30.0MW_Q_Negativo;Subexcitacion;30;-18;;;;UEL;Forma B: pico de -76 Mvar a ~13 s, oscilaciones de P y se estabiliza en -18 desde ~40 s
+Punto_40.0MW_Q_Negativo;Subexcitacion;40;-14;;;;UEL;Forma B: pico de -31 Mvar a ~5 s y se estabiliza en -14 desde ~20 s
+Punto_50.0MW_Q_Negativo;Subexcitacion;50;-10;;;;UEL;Forma B: pico de -26 Mvar a ~4 s y se estabiliza en -10 desde ~20 s

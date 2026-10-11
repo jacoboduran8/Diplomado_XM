@@ -1,0 +1,52 @@
+PUNTO 3 - Curva PQ estimada de la unidad sincronica (SINC_UPB.pfd, Study Cases > Curva_PQ)
+Simulaciones RMS de 100 s. Valores finales leidos en t = 90 s (capturas en la carpeta Simulaciones).
+
+DATOS DE LA MAQUINA (GEN_PRUEBA.TypSym)
+Sn = 76,941 MVA | Vn = 13,8 kV | fp = 0,85 | Pn = Sn x fp = 65,4 MW | Q a Pn = 40,5 Mvar
+Rotor liso | xd = 2,8 p.u. | xq = 2,7 p.u. | xd' = 0,264 p.u. | H = 1,56 s
+
+LIMITADORES DEL MODELO (Network Data > Grid > FRAME)
+oel_EX2100e (OEL, tiempo inverso): IFDpick_up = 3,3 p.u. | IFD_perman = 3,3 p.u. | IFD_max = 3,661 p.u. | Tint = 25,9 | IxTmax = 0,7 p.u.s | K_leak = 0,04
+uel_EX2100e (UEL):                 Kp = 0,7 | Ki = 0,25 | T = 5 s | MAXVA (P/E2 con Q = 0) = 0,9721 p.u. | UE_LIM (Q/E2) = 1,6 p.u. | VAR_OS = 0,02 p.u.
+                                   Incluye recta de limitacion de corriente estatorica (K = 1000) en P/E2 = 0,9721 p.u. (~74,8 MW)
+vco_EX2100e (AVR + excitatriz):    Limitador V/Hz Kvhz = 1,09 p.u. | consigna maxima de tension HLM = 1,1 p.u.
+pcu_MARKVIe:                       gobernador de la turbina de gas (TRATE = 50 MW). No interviene en la curva PQ.
+pss_EX2100e:                       estabilizador. No interviene en la curva PQ.
+No hay bloques independientes de SCL ni de MEL en el modelo.
+
+RESULTADOS
+
+Caso                       | Region          | P (MW) | Q final (Mvar) | Q transitoria (Mvar) | |S| (MVA) | Forma de la respuesta                                   | Limitador
+Punto_30.0MW_Q_Positivo    | Sobreexcitacion | 30     | +49,02         | ~ +58,2 (8 a 58 s)    | 57,5      | Sube, se sostiene ~50 s y baja a su valor permanente    | OEL
+Punto_40.0MW_Q_Positivo    | Sobreexcitacion | 40     | +45,17         | ~ +54,5 (7 a 58 s)    | 60,3      | Sube, se sostiene ~50 s y baja a su valor permanente    | OEL
+Punto_50.0MW_Q_Positivo    | Sobreexcitacion | 50     | +39,89         | ~ +50,0 (6 a 57 s)    | 64,0      | Sube, se sostiene ~50 s y baja a su valor permanente    | OEL
+Punto_30.0MW_Q_Negativo    | Subexcitacion   | 30     | -18,0          | pico -76 a ~13 s      | 35,0      | Gran excursion con oscilaciones de P; fija desde ~40 s  | UEL
+Punto_40.0MW_Q_Negativo    | Subexcitacion   | 40     | -14,0          | pico -31 a ~5 s       | 42,4      | Sobrepaso y estabilizacion desde ~20 s                  | UEL
+Punto_50.0MW_Q_Negativo    | Subexcitacion   | 50     | -10,0          | pico -26 a ~4 s       | 51,0      | Sobrepaso y estabilizacion desde ~20 s                  | UEL
+
+VERIFICACIONES
+
+1. OEL en sobreexcitacion (corriente de campo constante = circulo con centro en Q = -Sn/xd = -27,5 Mvar):
+   Radio con Q permanente:  30 MW -> 82,2 MVA | 40 MW -> 82,9 MVA | 50 MW -> 83,9 MVA  (los tres puntos caen en el mismo circulo, variacion < 2 %)
+   Radio con Q transitoria: 30 MW -> 90,8 MVA | 40 MW -> 91,2 MVA | 50 MW -> 92,2 MVA
+   Relacion transitorio/permanente ~ 1,10, igual a IFD_max / IFD_perman = 3,661 / 3,3 = 1,109.
+   Tiempo de sostenimiento calculado: IxTmax / ((IFD_max - IFDpick_up) / Tint) = 0,7 / (0,361 / 25,9) = 50 s.
+   Tiempo observado: ~50 s en los tres casos (Q baja entre 57 y 58 s). Confirma la accion del acumulador IxT del OEL.
+
+2. SCL no limita: |S| maximo = 64,0 MVA (0,83 p.u. de Sn). La corriente de estator nunca llega a su valor nominal.
+   En subexcitacion la recta estatorica del UEL esta en ~74,8 MW, por encima de los puntos probados.
+
+3. V/Hz no limita: si actuara, Q quedaria fija desde el inicio (sin el descenso a los ~50 s) y por debajo del circulo de campo.
+
+4. UEL en subexcitacion: la absorcion maxima disminuye al aumentar P (-18, -14, -10 Mvar), +0,40 Mvar por MW.
+   La respuesta lenta con sobrepaso corresponde al PI del UEL (Kp = 0,7, Ki = 0,25, filtro de 5 s).
+   En 30 MW la excursion inicial llega a -76 Mvar con oscilaciones fuertes de P (cerca del limite de estabilidad) antes de que el UEL recupere la excitacion.
+
+RESPUESTA (limitador que causa el limite)
+
+P (MW) | Sobreexcitacion (Q max)  | Subexcitacion (Q min)
+30     | OEL  (+49,02 Mvar)       | UEL  (-18 Mvar)
+40     | OEL  (+45,17 Mvar)       | UEL  (-14 Mvar)
+50     | OEL  (+39,89 Mvar)       | UEL  (-10 Mvar)
+
+Grafica: Curva_PQ_SINC_UPB.png / .svg (generada con punto3_curva_PQ.py a partir de Resultados_PQ.csv).
