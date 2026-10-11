@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg baseProfile='full' height='100.000000%' version='1.1' viewBox='0.000000 0.000000 1753.000000 1240.000000' width='100.000000%' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+
+
+  <defs>
+    <clipPath id='clipPath-01'>
+      <polygon points='0.000000 1240.157480, 0.000000 0.000000, 1753.937008 0.000000, 1753.937008 1240.157480' />
+    </clipPath>
+  </defs>
+
+  <g clip-path='url(#clipPath-01)'>
+    <g id='Page Layer'>
+      <polygon fill='#ffffff' points='0.500000 0.500000, 0.500000 1239.500000, 1752.500000 1239.500000, 1752.500000 0.500000' stroke='#808080' stroke-width='1.000000' />
+    </g>
+    <g id='Net elements'>
+      <g id='Grid\CB_PLANTA.ElmCoup'>
+        <polyline fill='none' points='775.277017 387.549246, 775.277017 465.059086' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 361.712633, 775.277017 284.202794' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 387.552199, 775.277017 382.384877' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 361.709681, 775.277017 369.434090' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 382.384877, 775.277017 369.434090' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='772.693807 372.044326, 777.860228 366.877003' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='772.693807 366.877003, 777.860228 372.044326' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\Line.ElmLne'>
+        <polyline fill='none' points='775.277017 219.611261, 775.277017 284.202794' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 219.611261, 775.277017 155.019728' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\AC Voltage Source.ElmVac'>
+        <polyline fill='none' points='878.487488 103.346502, 878.487488 155.019728' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='878.487488 103.376029, 878.487488 93.041384' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='878.487488' cy='77.509889' fill='none' rx='15.510469' ry='15.530905' stroke='#000000' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='20.056454' text-anchor='start' x='869.487488' y='88.105872'>V</text>
+        <text fill='#000000' font-family='Arial' font-size='15.599465' text-anchor='start' x='872.987488' y='73.925029'>~</text>
+      </g>
+      <g id='Grid\NEC/NER_PLANTA.ElmNec'>
+        <polyline fill='none' points='904.290105 542.568925, 904.290105 465.059086' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='904.290105 542.539398, 904.290105 552.874043' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='904.290105' cy='568.405539' fill='none' rx='15.510469' ry='15.530905' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='910.482733 565.818924, 907.386419 568.405539, 904.290105 568.405539, 901.193791 570.992153, 901.193791 574.606326' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='901.193791 562.204751, 904.290105 565.305145, 904.290105 568.405539' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='904.290105 568.405539, 892.417952 568.405539, 892.417952 581.840577' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='892.417952 581.840577, 892.417952 590.622073' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='886.744325 590.622073, 898.097477 590.622073' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='888.779046 592.689002, 896.033268 592.689002' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='890.872744 594.755931, 893.969058 594.755931' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\TR_MT-BT_PLANTA.ElmTr2'>
+        <polyline fill='none' points='775.277017 684.670298, 775.277017 620.078765' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 736.343524, 775.277017 800.935057' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 684.640770, 775.277017 686.223447' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='701.719214' fill='none' rx='15.510469' ry='15.530905' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='719.294607' fill='none' rx='15.510469' ry='15.530905' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 736.373052, 775.277017 734.790374' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\Colector_PLANTA.ElmLne'>
+        <polyline fill='none' points='775.277017 542.568925, 775.277017 620.078765' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 542.568925, 775.277017 465.059086' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\PLANTA.ElmGenstat'>
+        <polyline fill='none' points='775.277017 878.444896, 775.277017 800.935057' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 878.415369, 775.277017 879.478361' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 879.478361, 775.277017 887.746077' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='763.481535 887.746077, 787.072499 887.746077, 787.072499 920.816942, 763.481535 920.816942, 763.481535 887.746077, 775.277017 901.328754, 787.072499 887.746077' stroke='#000000' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 878.415369, 775.277017 887.746077' stroke='#000000' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\External Grid.ElmXnet'>
+        <polyline fill='none' points='775.277017 103.346502, 775.277017 155.019728' stroke='#808080' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 90.431148, 775.277017 103.376029' stroke='#808080' stroke-width='1.000000' />
+        <polyline fill='none' points='794.629275 90.431148, 755.924759 90.431148, 755.924759 64.588629, 794.629275 64.588629, 794.629275 90.431148' stroke='#808080' stroke-width='1.000000' />
+        <polyline fill='none' points='775.277017 90.431148, 755.924759 77.509889, 775.277017 64.588629, 794.629275 77.509889, 775.277017 90.431148' stroke='#808080' stroke-width='1.000000' />
+        <polyline fill='none' points='755.924759 90.431148, 794.629275 64.588629' stroke='#808080' stroke-width='1.000000' />
+        <polyline fill='none' points='755.924759 64.588629, 794.629275 90.431148' stroke='#808080' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\MT2_PLANTA.ElmTerm'>
+        <polyline fill='none' points='697.839676 620.078765, 852.714359 620.078765' stroke='#00bf00' stroke-width='2.583211' />
+      </g>
+      <g id='Grid\MT1_PLANTA.ElmTerm'>
+        <polyline fill='none' points='697.815108 465.059086, 981.752014 465.059086' stroke='#00bf00' stroke-width='2.583211' />
+      </g>
+      <g id='Grid\BT_PLANTA.ElmTerm'>
+        <polyline fill='none' points='697.829861 800.935057, 904.329408 800.935057' stroke='#0ec205' stroke-width='2.583211' />
+      </g>
+      <g id='Grid\POI_PLANTA.ElmTerm'>
+        <polyline fill='none' points='697.815089 284.202794, 981.752033 284.202794' stroke='#00bf00' stroke-width='2.583211' />
+      </g>
+      <g id='Grid\POI.ElmTerm'>
+        <polyline fill='none' points='594.584972 155.019728, 981.771680 155.019728' stroke='#00bf00' stroke-width='2.583211' />
+      </g>
+      <g id='Grid\CB_PLANTA.ElmCoup::LineAttribs'>
+        <ellipse cx='775.277017' cy='465.059086' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='284.202794' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\Line.ElmLne::LineAttribs'>
+        <polygon fill='#000000' points='779.147410 267.408995, 779.147410 275.159979, 771.406625 275.159979, 771.406625 267.408995' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='284.202794' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+        <polygon fill='#000000' points='771.406625 171.813527, 771.406625 164.062543, 779.147410 164.062543, 779.147410 171.813527' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='155.019728' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\AC Voltage Source.ElmVac::LineAttribs'>
+        <polygon fill='#000000' points='882.357880 138.225930, 882.357880 145.976914, 874.617095 145.976914, 874.617095 138.225930' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='878.487488' cy='155.019728' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\NEC/NER_PLANTA.ElmNec::LineAttribs'>
+        <polygon fill='#000000' points='900.419713 481.852884, 900.419713 474.101901, 908.160498 474.101901, 908.160498 481.852884' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='904.290105' cy='465.059086' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\TR_MT-BT_PLANTA.ElmTr2::LineAttribs'>
+        <polygon fill='#000000' points='771.406625 636.872563, 771.406625 629.121579, 779.147410 629.121579, 779.147410 636.872563' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='620.078765' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+        <polygon fill='#000000' points='779.147410 784.141258, 779.147410 791.892242, 771.406625 791.892242, 771.406625 784.141258' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='800.935057' fill='#0ec205' rx='4.127829' ry='4.133268' stroke='#0ec205' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\Colector_PLANTA.ElmLne::LineAttribs'>
+        <polygon fill='#000000' points='779.147410 603.284966, 779.147410 611.035950, 771.406625 611.035950, 771.406625 603.284966' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='620.078765' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+        <polygon fill='#000000' points='771.406625 481.852884, 771.406625 474.101901, 779.147410 474.101901, 779.147410 481.852884' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='465.059086' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\PLANTA.ElmGenstat::LineAttribs'>
+        <polygon fill='#000000' points='771.406625 817.728855, 771.406625 809.977871, 779.147410 809.977871, 779.147410 817.728855' stroke='#000000' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='800.935057' fill='#0ec205' rx='4.127829' ry='4.133268' stroke='#0ec205' stroke-width='1.000000' />
+      </g>
+      <g id='Grid\External Grid.ElmXnet::LineAttribs'>
+        <polygon fill='#808080' points='779.147410 138.225930, 779.147410 145.976914, 771.406625 145.976914, 771.406625 138.225930' stroke='#808080' stroke-width='1.000000' />
+        <ellipse cx='775.277017' cy='155.019728' fill='#00bf00' rx='4.127829' ry='4.133268' stroke='#00bf00' stroke-width='1.000000' />
+      </g>
+    </g>
+    <g id='Labels'>
+      <g id='Grid\CB_PLANTA.ElmCoup::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,748.911145,383.142139)' x='748.911145' y='393.240565'>0,0</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,737.705437,406.172442)' x='737.705437' y='416.270868'>CB_PLANTA</text>
+      </g>
+      <g id='Grid\Line.ElmLne::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,733.124615,229.287883)' x='733.124615' y='239.386308'>1,6</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,721.918906,231.791177)' x='721.918906' y='241.889602'>Line</text>
+      </g>
+      <g id='Grid\AC Voltage Source.ElmVac::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='876.487488' y='54.752980'> </text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='841.987488' y='43.532508'>AC Voltage S..</text>
+      </g>
+      <g id='Grid\NEC/NER_PLANTA.ElmNec::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='869.790105' y='606.584671'>NEC/NER_PL..</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='902.290105' y='617.805144'> </text>
+      </g>
+      <g id='Grid\TR_MT-BT_PLANTA.ElmTr2::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,724.084623,760.072129)' x='724.084623' y='770.170554'>TR_MT-BT_PLANTA</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,735.290332,719.018110)' x='735.290332' y='729.116536'>3,4</text>
+      </g>
+      <g id='Grid\Colector_PLANTA.ElmLne::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,754.074618,551.080125)' x='754.074618' y='561.178550'>1,6</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' transform='rotate(270.000000,742.868909,587.127556)' x='742.868909' y='597.225981'>Colector_PLANTA</text>
+      </g>
+      <g id='Grid\PLANTA.ElmGenstat::NameBox 0'>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='753.777017' y='936.000013'>PLANTA</text>
+        <text fill='#000000' font-family='Arial' font-size='11.220472' text-anchor='start' x='766.777017' y='947.220485'>4,7</text>
+      </g>
+      <g id='Grid\External Grid.ElmXnet::NameBox 0'>
+        <text fill='#808080' font-family='Arial' font-size='11.220472' text-anchor='start' x='773.277017' y='54.752980'> </text>
+        <text fill='#808080' font-family='Arial' font-size='11.220472' text-anchor='start' x='743.277017' y='43.532508'>External Grid</text>
+      </g>
+      <g id='Grid\MT2_PLANTA.ElmTerm::NameBox 0'>
+        <text fill='#00bf00' font-family='Arial' font-size='15.354331' text-anchor='start' x='602.794037' y='623.586247'>MT2_PLANTA</text>
+      </g>
+      <g id='Grid\MT1_PLANTA.ElmTerm::NameBox 0'>
+        <text fill='#00bf00' font-family='Arial' font-size='15.354331' text-anchor='start' x='602.794044' y='469.650621'>MT1_PLANTA</text>
+      </g>
+      <g id='Grid\BT_PLANTA.ElmTerm::NameBox 0'>
+        <text fill='#0ec205' font-family='Arial' font-size='15.354331' text-anchor='start' x='609.101154' y='805.526592'>BT_PLANTA</text>
+      </g>
+      <g id='Grid\POI_PLANTA.ElmTerm::NameBox 0'>
+        <text fill='#00bf00' font-family='Arial' font-size='15.354331' text-anchor='start' x='599.281220' y='287.219744'>POI_PLANTA</text>
+      </g>
+      <g id='Grid\POI.ElmTerm::NameBox 0'>
+        <text fill='#00bf00' font-family='Arial' font-size='15.354331' text-anchor='start' x='563.834599' y='159.611264'>POI</text>
+      </g>
+    </g>
+    <g id='Results'>
+      <g id='Grid\CB_PLANTA.ElmCoup::ResultBox 1'>
+        <polygon fill='#ffffff' points='796.360369 425.182117, 754.193665 425.182117, 754.193665 457.308102, 796.360369 457.308102' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='454.461007'>0,016</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='445.012188'>0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='435.563369'>0,020</text>
+      </g>
+      <g id='Grid\CB_PLANTA.ElmCoup::ResultBox 2'>
+        <polygon fill='#ffffff' points='754.193665 324.079762, 796.360369 324.079762, 796.360369 291.953778, 754.193665 291.953778' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='761.277017' y='302.347479'>-0,020</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='761.277017' y='311.796298'>-0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='321.245117'>0,016</text>
+      </g>
+      <g id='Grid\Line.ElmLne::ResultBox 1'>
+        <polygon fill='#ffffff' points='796.360369 226.240196, 754.193665 226.240196, 754.193665 258.366181, 796.360369 258.366181' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='255.519086'>0,016</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='246.070267'>0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='236.621448'>0,020</text>
+      </g>
+      <g id='Grid\Line.ElmLne::ResultBox 2'>
+        <polygon fill='#ffffff' points='755.252154 212.452384, 797.418859 212.452384, 797.418859 180.326399, 755.252154 180.326399' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.335506' y='190.720100'>-0,020</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.335506' y='200.168919'>-0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='763.835506' y='209.617738'>0,016</text>
+      </g>
+      <g id='Grid\AC Voltage Source.ElmVac::ResultBox 1'>
+        <polygon fill='#ffffff' points='899.570840 97.057131, 857.404135 97.057131, 857.404135 129.183115, 899.570840 129.183115' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='865.987488' y='126.336020'>0,016</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='864.487488' y='116.887201'>-0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='864.487488' y='107.438383'>-0,020</text>
+      </g>
+      <g id='Grid\NEC/NER_PLANTA.ElmNec::ResultBox 1'>
+        <polygon fill='#ffffff' points='883.206753 523.021683, 925.373457 523.021683, 925.373457 490.895699, 883.206753 490.895699' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='891.790105' y='501.289400'>0,000</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='891.790105' y='510.738219'>0,000</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='891.790105' y='520.187038'>0,000</text>
+      </g>
+      <g id='Grid\TR_MT-BT_PLANTA.ElmTr2::ResultBox 1'>
+        <polygon fill='#ffffff' points='754.193665 678.041362, 796.360369 678.041362, 796.360369 645.915378, 754.193665 645.915378' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='761.277017' y='656.309079'>-0,020</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='760.777017' y='665.757898'>-0,904</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='675.206717'>0,015</text>
+      </g>
+      <g id='Grid\TR_MT-BT_PLANTA.ElmTr2::ResultBox 2'>
+        <polygon fill='#ffffff' points='797.368801 742.972459, 755.202096 742.972459, 755.202096 775.098444, 797.368801 775.098444' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='763.785448' y='772.251349'>0,856</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='764.285448' y='762.802530'>1,025</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='763.785448' y='753.353711'>0,042</text>
+      </g>
+      <g id='Grid\Colector_PLANTA.ElmLne::ResultBox 1'>
+        <polygon fill='#ffffff' points='796.360369 562.116167, 754.193665 562.116167, 754.193665 594.242152, 796.360369 594.242152' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='591.395057'>0,015</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.277017' y='581.946238'>0,904</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='572.497419'>0,020</text>
+      </g>
+      <g id='Grid\Colector_PLANTA.ElmLne::ResultBox 2'>
+        <polygon fill='#ffffff' points='754.193665 523.021683, 796.360369 523.021683, 796.360369 490.895699, 754.193665 490.895699' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='761.277017' y='501.289400'>-0,020</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='761.277017' y='510.738219'>-0,972</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='520.187038'>0,016</text>
+      </g>
+      <g id='Grid\PLANTA.ElmGenstat::ResultBox 1'>
+        <polygon fill='#ffffff' points='754.193665 858.897654, 796.360369 858.897654, 796.360369 826.771670, 754.193665 826.771670' stroke='none' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='837.165371'>0,042</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='763.277017' y='846.614190'>1,025</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='762.777017' y='856.063009'>0,856</text>
+      </g>
+      <g id='Grid\External Grid.ElmXnet::ResultBox 1'>
+        <polygon fill='#ffffff' points='796.360369 97.057131, 754.193665 97.057131, 754.193665 129.183115, 796.360369 129.183115' stroke='#c0c0c0' stroke-dasharray='5.000000 3.333333' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='773.277017' y='126.336020'> </text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='773.277017' y='116.887201'> </text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='773.277017' y='107.438383'> </text>
+      </g>
+      <g id='Grid\MT2_PLANTA.ElmTerm::ResultBox 1'>
+        <polygon fill='#ffffff' points='697.869164 653.498056, 740.035869 653.498056, 740.035869 621.372072, 697.869164 621.372072' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='708.952517' y='631.765773'>34,5</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.452517' y='641.214592'>1,00</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.952517' y='650.663410'>-0,0</text>
+      </g>
+      <g id='Grid\MT1_PLANTA.ElmTerm::ResultBox 1'>
+        <polygon fill='#ffffff' points='697.869171 498.478377, 740.035875 498.478377, 740.035875 466.352393, 697.869171 466.352393' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='708.952523' y='476.746094'>34,5</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.452523' y='486.194913'>1,00</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.952523' y='495.643732'>-0,0</text>
+      </g>
+      <g id='Grid\BT_PLANTA.ElmTerm::ResultBox 1'>
+        <polygon fill='#ffffff' points='697.869180 834.354348, 740.035884 834.354348, 740.035884 802.228364, 697.869180 802.228364' stroke='#0ec205' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='711.452532' y='812.622065'>0,7</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.452532' y='822.070884'>1,00</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='708.952532' y='831.519702'>29,9</text>
+      </g>
+      <g id='Grid\POI_PLANTA.ElmTerm::ResultBox 1'>
+        <polygon fill='#ffffff' points='697.869152 317.622085, 740.035856 317.622085, 740.035856 285.496101, 697.869152 285.496101' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='708.952504' y='295.889802'>34,5</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.452504' y='305.338621'>1,00</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='709.952504' y='314.787439'>-0,0</text>
+      </g>
+      <g id='Grid\POI.ElmTerm::ResultBox 1'>
+        <polygon fill='#ffffff' points='594.658694 188.439019, 636.825398 188.439019, 636.825398 156.313035, 594.658694 156.313035' stroke='#00bf00' stroke-width='1.000000' />
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='605.742046' y='166.706736'>34,5</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='606.242046' y='176.155555'>1,00</text>
+        <text fill='#000000' font-family='Arial' font-size='9.448819' text-anchor='start' x='608.242046' y='185.604374'>0,0</text>
+      </g>
+    </g>
+  </g>
+
+</svg>
