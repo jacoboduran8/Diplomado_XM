@@ -2,4 +2,4 @@ Valor_aplicado = 58,6 Hz
 Dispara = NO
 t_disparo = N/A
 P_antes = 20,33 MW
-P_despues = 21,99 NW
+P_despues = 21,99 MW
