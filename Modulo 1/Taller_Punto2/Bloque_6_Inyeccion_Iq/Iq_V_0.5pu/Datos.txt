@@ -1,0 +1,11 @@
+V_antes = 1,0 p.u.
+V_falla = 0,5 p.u.
+V_despues = 0,91 p.u.
+t_recupera = 0,5 s
+Iq_antes = 0 p.u.
+Iq_falla = 0,9176 p.u.
+t_90 = 0,04 s
+Iq_sostenimiento = 0,15 p.u.
+t_fin_sostenimiento = 1,0 s
+Iq_final = -0,03 p.u.
+Dispara = No
