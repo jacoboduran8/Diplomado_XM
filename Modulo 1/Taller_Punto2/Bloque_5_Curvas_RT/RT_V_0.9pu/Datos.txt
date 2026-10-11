@@ -1,0 +1,5 @@
+Valor_aplicado = 0,9 p.u
+Dispara = NO
+t_disparo = N/A
+P_antes = 20,3 MW
+P_despues = 19,07 MW

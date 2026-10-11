@@ -1,0 +1,5 @@
+Valor_aplicado = 63 Hz
+Dispara = NO
+t_disparo = N/A
+P_antes = 20,33 MW
+P_despues = 12,63 NW

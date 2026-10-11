@@ -1,0 +1,7 @@
+Dispara = SI
+t_disparo = 0,509 s
+V_tramo1 = 1 p.u (de 0 a 0,174s)
+V_tramo2 = 0,1 p.u (de 0,174 a 0,670s)
+V_tramo3 = 0,85 p.u (de 0,670 a 20,5s)
+V_tramo4 = 0,9 p.u (desde 20,5s en Adelante)
+P_antes = 20,33 MW

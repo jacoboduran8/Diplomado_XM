@@ -1,0 +1,6 @@
+Dispara = SI
+t_disparo = 30,005s
+V_tramo1 = 1,2 p.u (de 0 a 2s)
+V_tramo2 = 1,1 p.u (de 2s en Adelante)
+P_antes = 20,33 MW
+P_despues = 20,28 MW

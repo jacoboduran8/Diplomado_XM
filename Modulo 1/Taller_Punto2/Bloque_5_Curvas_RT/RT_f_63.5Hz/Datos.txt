@@ -1,0 +1,3 @@
+Valor_aplicado = 63,5 Hz
+Dispara = SI
+t_disparo = 0,299 s

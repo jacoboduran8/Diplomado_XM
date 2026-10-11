@@ -1,0 +1,3 @@
+Valor_aplicado = 0,85 p.u
+Dispara = SI
+t_disparo = 20 s

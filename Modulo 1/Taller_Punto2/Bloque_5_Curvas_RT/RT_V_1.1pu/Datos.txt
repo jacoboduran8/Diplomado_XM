@@ -1,0 +1,4 @@
+Valor_aplicado = 1,1 p.u
+Dispara = SI
+t_disparo = 30,007 s
+Nota = Simulación extendida a 40 s
