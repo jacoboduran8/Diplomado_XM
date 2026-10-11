@@ -1,0 +1,9 @@
+# Llene una fila por cada caso de la carpeta Curva_PQ. Q en Mvar: positivo = sobreexcitacion, negativo = subexcitacion.
+# Limitador: escriba OEL, UEL, SCL, MEL o V/Hz (el que se activa en ese caso). Vt, It, Ifd son opcionales (valor final en p.u.).
+Caso;Region;P_MW;Q_Mvar;Vt_pu;It_pu;Ifd_pu;Limitador;Nota
+Punto_30.0MW_Q_Positivo;Sobreexcitacion;30;49.02;;;;OEL;Q transitoria ~58.5 Mvar por ~49 s y luego OEL (acumulador IxT) la baja a 49.02
+;Sobreexcitacion;40;;;;;;
+;Sobreexcitacion;50;;;;;;
+;Subexcitacion;30;;;;;;
+;Subexcitacion;40;;;;;;
+;Subexcitacion;50;;;;;;

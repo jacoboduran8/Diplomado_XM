@@ -1,1 +1,15 @@
-Pendiente: guardar aqui las graficas PNG del caso.
+Curva P-Q dinamica (simulacion RMS de 500 s, V = 1 p.u.), solo lado de entrega de reactiva (Q > 0)
+Rampa lenta de P de 0 a ~21,4 MW con la consigna de Q al maximo permitido por la curva.
+
+Tramo de P (MW)        | Q alcanzada (Mvar) | Coincide con la curva exigida
+0 a ~2 (P < 10 % CEN)  | 0,99 (5 % Pn)      | Si
+~2 (10 % CEN)          | salta a 1,99       | Si
+2 a ~4 (10 a 20 %)     | sube de 1,99 a 6,57 (lineal) | Si
+~4 a 18,9 (20 a 95 %)  | 6,57 (0,33 Pn)     | Si
+18,9 a 19,92 (95 a 100 %) | baja de 6,57 a 4,54 | Si
+19,92 a ~21,4 (> CEN)  | 4,54 constante     | La planta sigue aumentando P por encima de la CEN (hasta ~21,4 MW)
+
+Observaciones:
+- La trayectoria dinamica reproduce la curva P-Q exigida (K_Qmax) en todo el rango.
+- Solo se simula el lado capacitivo (Q > 0); el lado inductivo se verifica con la curva estatica.
+- Igual que en la estatica, P supera la CEN y se limita en ~21,4 MW.
