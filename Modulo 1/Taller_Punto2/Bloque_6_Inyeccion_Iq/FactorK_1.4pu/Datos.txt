@@ -1,11 +1,8 @@
-V_antes = 
-V_falla = 
-V_despues = 
-t_recupera = 
-Iq_antes = 
-Iq_falla = 
-t_90 = 
-Iq_sostenimiento = 
-t_fin_sostenimiento = 
-Iq_final = 
-Dispara = 
+Tipo = Rampa lenta de tension de 1,0 a 1,4 p.u. (curva Iq vs V)
+Activacion_POI = 1,103 p.u. (en inversor = 1,121 p.u. = Vup)
+Iq_al_activar_POI = -0,21 p.u.
+Pendiente_k_POI_1,12_a_1,21 = -1,6
+Pendiente_k_POI_1,21_a_1,40 = -2,2 (cambio de pendiente cerca de 1,2 p.u.: logica HV clamp del REGC_A, Volim = 1,2)
+Pendiente_k_POI_promedio = -2,0
+Iq_en_1,4_p.u. = -0,79 p.u.
+Fuente = lectura grafica

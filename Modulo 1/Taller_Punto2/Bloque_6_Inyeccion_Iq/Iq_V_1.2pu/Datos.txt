@@ -1,11 +1,13 @@
-V_antes = 
-V_falla = 
-V_despues = 
-t_recupera = 
-Iq_antes = 
-Iq_falla = 
-t_90 = 
-Iq_sostenimiento = 
-t_fin_sostenimiento = 
-Iq_final = 
-Dispara = 
+V_antes = 1,0 p.u.
+V_falla = 1,2 p.u.
+V_despues = 1,09 p.u.
+t_recupera = 0,5 s
+Iq_antes = 0 p.u.
+Iq_falla = -0,37 p.u. (constante durante el evento)
+t_90 = ~0,045 s (lectura grafica, confirmar con zoom: Iq = -0,333)
+Iq_sostenimiento = -0,05 a -0,04 p.u.
+t_fin_sostenimiento = 1,0 s
+Iq_final = -0,03 p.u.
+Observacion = despues de t = 1,0 s aparecen picos periodicos de Iq (~+0,17 p.u., cada ~0,55 s) con V constante en 1,09 p.u.: posible conmutacion repetitiva de la logica de deteccion de falla / HV clamp
+Dispara = No
+Fuente = lectura grafica

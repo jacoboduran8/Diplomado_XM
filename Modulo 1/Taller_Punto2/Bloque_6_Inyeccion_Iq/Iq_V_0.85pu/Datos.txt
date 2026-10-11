@@ -1,11 +1,12 @@
-V_antes = 
-V_falla = 
-V_despues = 
-t_recupera = 
-Iq_antes = 
-Iq_falla = 
-t_90 = 
-Iq_sostenimiento = 
-t_fin_sostenimiento = 
-Iq_final = 
-Dispara = 
+V_antes = 1,0 p.u.
+V_falla = 0,85 p.u.
+V_despues = 0,91 p.u.
+t_recupera = 0,5 s
+Iq_antes = 0 p.u.
+Iq_falla = 0,212 p.u.
+t_90 = < 0,05 s (lectura grafica)
+Iq_sostenimiento = 0,037 a 0,03 p.u.
+t_fin_sostenimiento = 1,0 s
+Iq_final = -0,015 p.u. (tras minimo de -0,098 p.u. en t = 1,08 s)
+Dispara = No
+Fuente = lectura grafica

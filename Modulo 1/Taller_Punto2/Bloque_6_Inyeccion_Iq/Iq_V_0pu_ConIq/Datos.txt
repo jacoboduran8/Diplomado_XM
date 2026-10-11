@@ -1,11 +1,15 @@
-V_antes = 
-V_falla = 
-V_despues = 
-t_recupera = 
-Iq_antes = 
-Iq_falla = 
-t_90 = 
-Iq_sostenimiento = 
-t_fin_sostenimiento = 
-Iq_final = 
-Dispara = 
+V_antes = 1,0 p.u. (grafica muestra ~0,9 por escala)
+V_falla = 0 p.u.
+V_despues = 0,91 p.u.
+t_recupera = 0,5 s
+Iq_antes = 0 p.u.
+Iq_falla = 0,70 p.u.
+t_90 = < 0,05 s (lectura grafica)
+Iq_sostenimiento = 0,18 a 0,07 p.u. (entre 0,5 y 1,0 s)
+t_fin_sostenimiento = 1,0 s
+Iq_final = 0 p.u.
+P_antes = 20,3 MW
+P_falla = ~0,5 MW (corriente activa practicamente nula durante el hueco)
+t_P_90 = 0,80 s (recupera 90 % de P en ~0,30 s despues de t_recupera; rampa rrpwr = 3 p.u./s)
+Dispara = No
+Fuente = lectura grafica

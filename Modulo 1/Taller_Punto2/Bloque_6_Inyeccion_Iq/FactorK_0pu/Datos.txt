@@ -1,11 +1,8 @@
-V_antes = 
-V_falla = 
-V_despues = 
-t_recupera = 
-Iq_antes = 
-Iq_falla = 
-t_90 = 
-Iq_sostenimiento = 
-t_fin_sostenimiento = 
-Iq_final = 
-Dispara = 
+Tipo = Rampa lenta de tension de 1,0 a 0 p.u. (curva Iq vs V)
+Activacion_POI = 0,885 p.u. (en inversor = 0,92 p.u. = Vdip)
+Iq_al_activar_POI = 0,15 p.u.
+Pendiente_k_POI = 2,0 (de (0,88 ; 0,15) a (0,455 ; 1,0))
+Pendiente_k_inversor = 2,0 (de (0,91 ; 0,23) a (0,525 ; 1,0))
+Saturacion = Iq = 1,0 p.u. para V_POI < 0,455 p.u. (limite Imax / Iqh1)
+Cumple_k_Guia_XM = Si (2 +/- 0,1 en el POI)
+Fuente = lectura grafica
