@@ -1,7 +1,13 @@
+uninodal: bool = False
+
 from digestor import Data
-from pyomo.environ import Set
-from pyomo.environ import ConcreteModel, Param, Var, Objective, Constraint, NonNegativeReals, Binary, Reals, minimize, SolverFactory
+from pyomo.environ import (
+    ConcreteModel, Set, Param, Var, Objective, Constraint, 
+    NonNegativeReals, Binary, Reals, minimize, SolverFactory,
+    SolverStatus, TerminationCondition
+    )
 from math import pi
+from pandas import DataFrame
 
 data = Data()
 m = ConcreteModel(name="deterministic_model")
@@ -70,10 +76,11 @@ m.v_x = Var(m.s_periods, m.s_generators, within=Binary, doc="Binary variable equ
 m.v_y = Var(m.s_periods, m.s_generators, within=Binary, doc="Binary variable equal to 1 if generator is start-up, and 0 otherwise")
 m.v_z = Var(m.s_periods, m.s_generators, within=Binary, doc="Binary variable equal to 1 if generator is shut-down, and 0 otherwise")
 
-m.v_pf = Var(m.s_periods, m.s_lines, within=NonNegativeReals, doc="Power flow through lines")
+m.v_pf = Var(m.s_periods, m.s_lines, within=Reals, doc="Power flow through lines")
 m.v_theta = Var(m.s_periods, m.s_buses, within=Reals, doc="Bus voltage angles")
 m.v_curt = Var(m.s_periods, m.s_wind, within=NonNegativeReals, doc="Wind curtailment")
 m.v_ll = Var(m.s_periods, m.s_buses, within=NonNegativeReals, doc="Unserved load")
+m.v_sl = Var(m.s_periods, m.s_buses, within=NonNegativeReals, doc="Slack load")
 
 # Bounds
 #setting the reference bus
@@ -159,20 +166,28 @@ def power_balance(m, t, s):
             == m.load_profile[s, t] - m.v_ll[t, s])
 m.e_power_balance = Constraint(m.s_periods, m.s_buses, rule=power_balance)
 
+def uninodal_balance(m, t):
+    return (
+        sum(m.v_g[t, i] for i in m.s_generators) 
+        + sum(m.wind_profile[w, t] - m.v_curt[t, w] for w in m.s_wind)
+        == sum(m.load_profile[s, t] - m.v_ll[t, s] + m.v_sl[t, s] for s in m.s_buses)
+    )
+m.e_uninodal_balance = Constraint(m.s_periods, rule=uninodal_balance)
+
 def curt_cons(m, t, w):
     return m.v_curt[t, w] <= m.wind_profile[w, t]
 m.e_curt_cons = Constraint(m.s_periods, m.s_wind, rule=curt_cons)
 
-def line_flow(m, t, l, s):
-    return m.v_pf[t, l] == sBase *m.line_y[l] * sum(m.v_theta[t, s] * m.line_map[l, s] for s in m.s_buses if m.line_map[l, s] != 0)
-m.e_line_flow = Constraint(m.s_periods, m.s_lines, m.s_buses, rule=line_flow)
+def line_flow(m, t, l):
+    return m.v_pf[t, l] == sBase * m.line_y[l] * sum(m.v_theta[t, s] * m.line_map[l, s] for s in m.s_buses if m.line_map[l, s] != 0)
+m.e_line_flow = Constraint(m.s_periods, m.s_lines, rule=line_flow)
 
 def line_capacity_min(m, t, l):
-    return m.v_pf[t, l] >= -m.line_capacity[l]
+    return m.v_pf[t, l] >= -m.line_capacity[l] * 1000
 m.e_line_capacity_min = Constraint(m.s_periods, m.s_lines, rule=line_capacity_min)
 
 def line_capacity_max(m, t, l):
-    return m.v_pf[t, l] <= m.line_capacity[l]
+    return m.v_pf[t, l] <= m.line_capacity[l] * 1000
 m.e_line_capacity_max = Constraint(m.s_periods, m.s_lines, rule=line_capacity_max)
 
 def voltage_angles_min(m, t, s):
@@ -183,11 +198,60 @@ def voltage_angles_max(m, t, s):
     return m.v_theta[t, s] <= pi
 m.e_voltage_angles_max = Constraint(m.s_periods, m.s_buses, rule=voltage_angles_max)
 
-## Solve
-m.write("UC_UW.lp")
-solver = SolverFactory("highs")
-solver_options = {}
-# solver.set_options(solver_options)
+# Controls
+# Disable by default
+m.e_uninodal_balance.deactivate()
 
-results = solver.solve(m, tee=True)
-m.write("UC_UW.sol")
+# disable flow constraints
+if uninodal:
+    m.e_line_flow.deactivate()
+    m.e_line_capacity_min.deactivate()
+    m.e_line_capacity_max.deactivate()
+    m.e_voltage_angles_min.deactivate()
+    m.e_voltage_angles_max.deactivate()
+    # set angles to 0
+    m.v_theta[:, :].fix(0)
+
+    m.e_power_balance.deactivate()
+    m.e_uninodal_balance.activate()
+
+## Solve
+m.write("UC_UW.lp", io_options={'symbolic_solver_labels': True})
+solver = SolverFactory("highs")
+# options = {"time_limit": 3600, "write_iis_model_file": "iUC_UW.lp"}
+options = {"time_limit": 3600}
+
+try:
+    results = solver.solve(m, options=options, tee=True)
+except Exception as e:
+    print(f"Solver encountered an error: {e}")
+    exit()
+# m.write("UC_UW.sol", io_options={'symbolic_solver_labels': True})
+
+if (results.solver.status == SolverStatus.ok) and (results.solver.termination_condition == TerminationCondition.optimal):
+    print("Optimal solution found")
+else:
+    print("Solver did not find an optimal solution")
+    exit()
+
+# generation report (to excel)
+gen_report = DataFrame(
+    index=m.s_periods,
+    columns=m.s_generators,
+    data=[[m.v_g[t, i].value for i in m.s_generators] for t in m.s_periods]
+)
+gen_report.to_excel("generation_report.xlsx")
+
+status_report = DataFrame(
+    index=m.s_periods,
+    columns=m.s_generators,
+    data=[[m.v_x[t, i].value for i in m.s_generators] for t in m.s_periods]
+)
+status_report.to_excel("status_report.xlsx")
+
+ll_report = DataFrame(
+    index=m.s_periods,
+    columns=m.s_buses,
+    data=[[- m.v_ll[t, s].value + m.v_sl[t, s].value for s in m.s_buses] for t in m.s_periods]
+)
+ll_report.to_excel("unserved_load.xlsx")

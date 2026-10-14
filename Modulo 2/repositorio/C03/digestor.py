@@ -1,7 +1,8 @@
 from pathlib import Path
 from pandas import DataFrame, ExcelFile
 
-XLSX_PATH = Path(__file__).parent / "gams" / "input_UC.xlsx"
+XLSX_PATH = Path(__file__).parent / "gams" / "input_UC_IEEE24.xlsx"
+# XLSX_PATH = Path(__file__).parent / "gams" / "input_UC.xlsx"
 
 class Data():
     def __init__(self, max_periods: int = 24):
@@ -12,6 +13,7 @@ class Data():
         self.gen_su_cost: DataFrame = excel_file.parse('gen_su_cost', index_col=0)
         self.loads: DataFrame = excel_file.parse('load', index_col=0)
         self.wind: DataFrame = excel_file.parse('wind', index_col=0)
+        self.bess: DataFrame = excel_file.parse('bess', index_col=0)
         
         # sets
         self.s_lines: list = list(self.lines.index)
@@ -21,6 +23,7 @@ class Data():
         self.s_bus: list = list(self.loads.columns)
         self.s_wind: list = list(self.wind.columns)
         self.s_periods: list = list(self.loads.index[:max_periods])
+        self.s_bess: list = list(self.bess.index)
 
         # Assert every block is within the colums of generatoros
         for block in self.s_blocks:
